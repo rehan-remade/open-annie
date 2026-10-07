@@ -1,0 +1,141 @@
+{
+  "id": "annie-b",
+  "name": "Annie",
+  "file": "model.vrm",
+  "sha256": "4a271bd3b5a3d19e054fd113ee154635b72e7141f4a8ccbcdba3c7f9cea6ee8d",
+  "bytes": 15433736,
+  "source_url": "https://hub.vroid.com/en/characters/7939147878897061040/models/2292219474373673889",
+  "source_mirror_url": "https://github.com/madjin/vrm-samples/raw/e16eb187100149a315ad92c3c9968f1d5baa6c7d/vroid/stable/AvatarSample_B.vrm",
+  "license": "VRoid-AvatarSample",
+  "license_url": "https://vroid.pixiv.help/hc/en-us/articles/4402394424089",
+  "license_evidence": {
+    "pixiv_faq": "https://vroid.pixiv.help/hc/en-us/articles/4402614652569 lists AvatarSample_A/B/C under 'Models with particular conditions of use': copyright NOT waived (not CC0), but they may be altered, distributed, and used commercially under the stated conditions.",
+    "vroid_hub_license": {
+      "modification": "allow",
+      "redistribution": "allow",
+      "credit": "unnecessary",
+      "characterization_allowed_user": "everyone",
+      "sexual_expression": "allow",
+      "violent_expression": "allow",
+      "corporate_commercial_use": "allow",
+      "personal_commercial_use": "profit"
+    },
+    "vroid_hub_license_url": "https://hub.vroid.com/license?allowed_to_use_user=everyone&characterization_allowed_user=everyone&corporate_commercial_use=allow&credit=unnecessary&modification=allow&personal_commercial_use=profit&redistribution=allow&sexual_expression=allow&version=1&violent_expression=allow",
+    "retrieved": "2026-09-29 via https://hub.vroid.com/api/character_models/2292219474373673889",
+    "restrictions": "pixiv: not CC0 (copyright not waived); do not redistribute with CC0 conditions, do not redistribute the VRM/.vroid for a fee, do not build a character-creation service from the sample's data."
+  },
+  "author": "VRoid Project (pixiv Inc.)",
+  "vrm_version": "0.x",
+  "embedded_meta": {
+    "version": "",
+    "author": "VRoid",
+    "contactInformation": "",
+    "reference": "",
+    "title": "AvatarSample_B",
+    "texture": 29,
+    "allowedUserName": "Everyone",
+    "violentUssageName": "Allow",
+    "sexualUssageName": "Allow",
+    "commercialUssageName": "Allow",
+    "otherPermissionUrl": "",
+    "licenseName": "Other",
+    "otherLicenseUrl": ""
+  },
+  "expressions": [
+    "Extra",
+    "Surprised",
+    "a",
+    "angry",
+    "blink",
+    "blink_l",
+    "blink_r",
+    "e",
+    "fun",
+    "i",
+    "joy",
+    "neutral",
+    "o",
+    "sorrow",
+    "u"
+  ],
+  "expressions_source": [
+    {
+      "name": "Neutral",
+      "presetName": "neutral",
+      "binds": 1
+    },
+    {
+      "name": "A",
+      "presetName": "a",
+      "binds": 1
+    },
+    {
+      "name": "I",
+      "presetName": "i",
+      "binds": 1
+    },
+    {
+      "name": "U",
+      "presetName": "u",
+      "binds": 1
+    },
+    {
+      "name": "E",
+      "presetName": "e",
+      "binds": 1
+    },
+    {
+      "name": "O",
+      "presetName": "o",
+      "binds": 1
+    },
+    {
+      "name": "Blink",
+      "presetName": "blink",
+      "binds": 1
+    },
+    {
+      "name": "Blink_L",
+      "presetName": "blink_l",
+      "binds": 1
+    },
+    {
+      "name": "Blink_R",
+      "presetName": "blink_r",
+      "binds": 1
+    },
+    {
+      "name": "Angry",
+      "presetName": "angry",
+      "binds": 1
+    },
+    {
+      "name": "Fun",
+      "presetName": "fun",
+      "binds": 1
+    },
+    {
+      "name": "Joy",
+      "presetName": "joy",
+      "binds": 1
+    },
+    {
+      "name": "Sorrow",
+      "presetName": "sorrow",
+      "binds": 1
+    },
+    {
+      "name": "Surprised",
+      "presetName": "unknown",
+      "binds": 1
+    },
+    {
+      "name": "Extra",
+      "presetName": "unknown",
+      "binds": 2
+    }
+  ],
+  "morph_targets_max_per_primitive": 56,
+  "triangle_count": 28292,
+  "notes": "pixiv's official VRoid Studio sample model AvatarSample_B, the open-annie hero 'Annie' since 2026-09-29. NOT CC0: same pixiv sample-model conditions and VRoid Hub license as AvatarSample_A; do not relabel as CC0. Bytes from the madjin/vrm-samples mirror (VRoid Hub download requires login). Spring bones: skirt (12), jacket hem 'CoatSkirt' (14), 'TopsUpperArm' sleeves, bust, long twin-tail hair; colliders on spine, upper chest, neck, head, arms, hands and upper legs."
+}

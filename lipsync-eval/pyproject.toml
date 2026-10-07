@@ -1,0 +1,12 @@
+[project]
+name = "lipsync-eval"
+version = "0.1.0"
+description = "Offline lipsync evaluation for open-annie: phoneme ground truth vs mouth providers"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "transformers",
+  "soundfile",
+  "numpy",
+  "scipy",
+]

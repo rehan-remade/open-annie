@@ -1,0 +1,36 @@
+<!doctype html><meta charset="utf-8"><title>voice audition</title>
+<script type="module">
+// One short real GPT-Live session per voice: synthetic mic says a line, we record her reply.
+import { Bus } from "../packages/core/src/bus.js";
+import { GptLiveVoice } from "../packages/core/src/voice-gptlive.js";
+const q = new URLSearchParams(location.search);
+const ctx = new AudioContext();
+const dest = ctx.createMediaStreamDestination();
+// room-noise floor so Opus DTX doesn't starve GPT-Live (see voice-gptlive.js notes)
+const nb = ctx.createBuffer(1, ctx.sampleRate * 2, ctx.sampleRate), ch = nb.getChannelData(0);
+for (let i = 0; i < ch.length; i++) ch[i] = (Math.random() * 2 - 1) * 0.0017;
+const ns = ctx.createBufferSource(); Object.assign(ns, { buffer: nb, loop: true }); ns.connect(dest); ns.start();
+const t0 = performance.now();
+window.aud = { done: false };
+const persona = await fetch("../persona/character.md").then((r) => r.text());
+const v = new GptLiveVoice({ bus: new Bus(), brokerUrl: q.get("broker"), voice: q.get("voice"), clock: { now: () => (performance.now() - t0) / 1000 }, mic: dest.stream, instructions: persona });
+let text = "";
+v.bus.on("assistant.partial", (e) => (text = e.text));
+try {
+  await v.connect();
+  const mr = new MediaRecorder(v.remote, { mimeType: "audio/webm;codecs=opus" });
+  const chunks = []; mr.ondataavailable = (e) => e.data.size && chunks.push(e.data); mr.start(250);
+  setInterval(() => v.tick((performance.now() - t0) / 1000, false), 30);
+  await new Promise((r) => setTimeout(r, 1500));
+  const buf = await ctx.decodeAudioData(await (await fetch("audio/" + q.get("line"))).arrayBuffer());
+  const s = ctx.createBufferSource(); s.buffer = buf; s.connect(dest); s.start();
+  await new Promise((r) => setTimeout(r, 11000));
+  const stopped = new Promise((r) => (mr.onstop = r)); mr.stop(); await stopped; v.close();
+  const b64 = await new Promise((r) => { const fr = new FileReader(); fr.onload = () => r(fr.result.split(",")[1]); fr.readAsDataURL(new Blob(chunks)); });
+  // Also exercise /decide with this session's token (one small Jev question).
+  const d = await fetch(q.get("broker") + "/decide", { method: "POST", headers: { "content-type": "application/json" },
+    body: JSON.stringify({ token: v.token, state: "The user says: let's dance!", questions: { face: { type: "choice", instructions: "Which face fits?", criteria: { joyful: "delight", neutral: "calm" } } } }) });
+  const decide = { status: d.status, body: await d.text() };
+  Object.assign(window.aud, { b64, text, decide, done: true });
+} catch (e) { Object.assign(window.aud, { error: String(e), done: true }); }
+</script>

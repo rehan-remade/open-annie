@@ -1,0 +1,27 @@
+[
+  {
+    "id": "annie-b",
+    "name": "Annie",
+    "path": "assets/avatars/annie-b/model.vrm",
+    "default": true,
+    "hide": {
+      "materials": [
+        "Tops_01_CLOTH"
+      ],
+      "springs": "CoatSkirt"
+    },
+    "_doc_hide": "Annie wears the crop top and pleated skirt without the varsity jacket: the jacket meshes and its hem springs are removed at load. ?outfit=full shows the jacket."
+  },
+  {
+    "id": "annie",
+    "name": "Annie (classic, AvatarSample_A)",
+    "path": "assets/avatars/annie/model.vrm",
+    "default": false
+  },
+  {
+    "id": "vivi",
+    "name": "Vivi",
+    "path": "assets/avatars/vivi/model.vrm",
+    "default": false
+  }
+]

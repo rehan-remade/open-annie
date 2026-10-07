@@ -1,0 +1,9 @@
+kokoro GT shift -50 ms (speech/silence correlation vs audio)
+kokoro/before              vowel5=26.4  vowel5_open=27.9  shut_on_vowel=4.7  open_vowel=83.2  open_cons=68.8  sil=100.0  closure=13.6  n_vowel=859  n_closure=22  offset_ms=13  xcorr=0.485
+kokoro/energy              vowel5=25.5  vowel5_open=27.1  shut_on_vowel=5.4  open_vowel=84.9  open_cons=71.9  sil=98.4  closure=13.6  n_vowel=859  n_closure=22  offset_ms=26  xcorr=0.467
+kokoro/ha                  vowel5=34.6  vowel5_open=39.9  shut_on_vowel=12.1  open_vowel=72.0  open_cons=59.4  sil=99.2  closure=40.9  n_vowel=859  n_closure=22  offset_ms=14  xcorr=0.371
+kokoro/headaudio-frames    cls15=18.9  cls5_soft=33.3  cls5_vote=16.5  chance5=20.0
+live/before                vowel5=21.7  vowel5_open=21.9  shut_on_vowel=0.6  open_vowel=78.0  open_cons=71.7  sil=97.2  closure=20.8  n_vowel=941  n_closure=24  offset_ms=25  xcorr=0.81
+live/energy                vowel5=23.3  vowel5_open=24.2  shut_on_vowel=2.3  open_vowel=82.1  open_cons=77.3  sil=97.4  closure=20.8  n_vowel=941  n_closure=24  offset_ms=36  xcorr=0.814
+live/ha                    vowel5=31.1  vowel5_open=34.2  shut_on_vowel=7.4  open_vowel=75.5  open_cons=67.2  sil=98.0  closure=37.5  n_vowel=941  n_closure=24  offset_ms=32  xcorr=0.783
+live/headaudio-frames      cls15=17.7  cls5_soft=33.6  cls5_vote=19.9  chance5=20.0

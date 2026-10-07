@@ -1,0 +1,140 @@
+{
+  "id": "annie",
+  "name": "Annie",
+  "file": "model.vrm",
+  "sha256": "b86b0b8a66d48911431d6f920a5211a974226f83aa672eca3f3dfade58ac346e",
+  "bytes": 15096320,
+  "source_url": "https://hub.vroid.com/en/characters/2843975675147313744/models/5644550979324015604",
+  "source_mirror_url": "https://github.com/madjin/vrm-samples/raw/e16eb187100149a315ad92c3c9968f1d5baa6c7d/vroid/stable/AvatarSample_A.vrm",
+  "license": "VRoid-AvatarSample",
+  "license_url": "https://vroid.pixiv.help/hc/en-us/articles/4402394424089",
+  "license_evidence": {
+    "pixiv_faq": "https://vroid.pixiv.help/hc/en-us/articles/4402614652569 lists AvatarSample_A/B/C under 'Models with particular conditions of use': copyright NOT waived (not CC0), but they may be altered, distributed, and used commercially under the stated conditions.",
+    "vroid_hub_license": {
+      "modification": "allow",
+      "redistribution": "allow",
+      "credit": "unnecessary",
+      "characterization_allowed_user": "everyone",
+      "sexual_expression": "allow",
+      "violent_expression": "allow",
+      "corporate_commercial_use": "allow",
+      "personal_commercial_use": "profit"
+    },
+    "vroid_hub_license_url": "https://hub.vroid.com/license?allowed_to_use_user=everyone&characterization_allowed_user=everyone&corporate_commercial_use=allow&credit=unnecessary&modification=allow&personal_commercial_use=profit&redistribution=allow&sexual_expression=allow&version=1&violent_expression=allow",
+    "retrieved": "2026-09-27 via https://hub.vroid.com/api/character_models/5644550979324015604"
+  },
+  "author": "VRoid Project (pixiv Inc.)",
+  "vrm_version": "0.x",
+  "embedded_meta": {
+    "version": "",
+    "author": "VRoid",
+    "contactInformation": "",
+    "reference": "",
+    "title": "AvatarSample_A",
+    "texture": 27,
+    "allowedUserName": "Everyone",
+    "violentUssageName": "Allow",
+    "sexualUssageName": "Allow",
+    "commercialUssageName": "Allow",
+    "otherPermissionUrl": "",
+    "licenseName": "Other",
+    "otherLicenseUrl": ""
+  },
+  "expressions": [
+    "neutral",
+    "aa",
+    "ih",
+    "ou",
+    "ee",
+    "oh",
+    "blink",
+    "blinkLeft",
+    "blinkRight",
+    "angry",
+    "relaxed",
+    "happy",
+    "sad",
+    "Surprised",
+    "Extra"
+  ],
+  "expressions_source": [
+    {
+      "name": "Neutral",
+      "presetName": "neutral",
+      "binds": 1
+    },
+    {
+      "name": "A",
+      "presetName": "a",
+      "binds": 1
+    },
+    {
+      "name": "I",
+      "presetName": "i",
+      "binds": 1
+    },
+    {
+      "name": "U",
+      "presetName": "u",
+      "binds": 1
+    },
+    {
+      "name": "E",
+      "presetName": "e",
+      "binds": 1
+    },
+    {
+      "name": "O",
+      "presetName": "o",
+      "binds": 1
+    },
+    {
+      "name": "Blink",
+      "presetName": "blink",
+      "binds": 1
+    },
+    {
+      "name": "Blink_L",
+      "presetName": "blink_l",
+      "binds": 1
+    },
+    {
+      "name": "Blink_R",
+      "presetName": "blink_r",
+      "binds": 1
+    },
+    {
+      "name": "Angry",
+      "presetName": "angry",
+      "binds": 1
+    },
+    {
+      "name": "Fun",
+      "presetName": "fun",
+      "binds": 1
+    },
+    {
+      "name": "Joy",
+      "presetName": "joy",
+      "binds": 1
+    },
+    {
+      "name": "Sorrow",
+      "presetName": "sorrow",
+      "binds": 1
+    },
+    {
+      "name": "Surprised",
+      "presetName": "unknown",
+      "binds": 1
+    },
+    {
+      "name": "Extra",
+      "presetName": "unknown",
+      "binds": 2
+    }
+  ],
+  "morph_targets_max_per_primitive": 56,
+  "triangle_count": 24854,
+  "notes": "pixiv's official VRoid Studio sample model AvatarSample_A (exported by VRoidStudio-0.14.0, UniGLTF-1.28), used as the open-annie hero 'Annie'. NOT CC0: redistribution/modification/commercial use are permitted by pixiv's sample-model conditions of use and the VRoid Hub license shown above; do not relabel as CC0. Bytes are the VRoid Studio-bundled export as mirrored in madjin/vrm-samples (the VRoid Hub download requires login); its embedded meta says licenseName 'Other' with empty otherPermissionUrl, while the Hub copy embeds the Hub license URL above. VRM 0.x: three-vrm maps A/I/U/E/O -> aa/ih/ou/ee/oh, Joy->happy, Sorrow->sad, Fun->relaxed. There is no VRM0 'surprised' preset: surprise is the custom expression 'Surprised' (bound to Face.baked morph 5). 'Extra' is a custom VRoid face (morphs 25+55). All expression binds target mesh 'Face.baked' (56 morph targets)."
+}

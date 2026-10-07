@@ -1,0 +1,41 @@
+{
+  "voice": "willow",
+  "quiet": 1.4,
+  "steps": [
+    {
+      "say": "01_user_blink",
+      "after": "start",
+      "gap": 1.5
+    },
+    {
+      "say": "03_user_who",
+      "after": "annie_done",
+      "gap": 0.4
+    },
+    {
+      "say": "05_user_feelings",
+      "after": "annie_done",
+      "gap": 0.5
+    },
+    {
+      "say": "07_user_dance",
+      "after": "annie_done",
+      "gap": 0.5
+    },
+    {
+      "say": "09_user_backflip",
+      "after": "annie_done",
+      "gap": 2.2
+    },
+    {
+      "say": "11_user_plug",
+      "after": "annie_done",
+      "gap": 0.6
+    },
+    {
+      "end": true,
+      "after": "annie_done",
+      "gap": 2.5
+    }
+  ]
+}

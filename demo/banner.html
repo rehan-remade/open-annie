@@ -1,0 +1,32 @@
+<!doctype html>
+<!-- README banner (readme-media.mjs → docs/media/banner.png): the title card's wordmark and the
+     outro's pills on the browser-frame desktop, so the README, the video and the stage match. -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap">
+<style>
+  html, body { margin: 0; }
+  body { width: 1280px; height: 400px; position: relative; overflow: hidden; font-family: Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+         background: radial-gradient(60% 90% at 8% 0%, rgba(251, 207, 232, 0.8), transparent 70%),
+                     radial-gradient(55% 90% at 95% 100%, rgba(196, 181, 253, 0.75), transparent 70%),
+                     radial-gradient(40% 70% at 90% 0%, rgba(125, 211, 252, 0.45), transparent 70%), #f4f3f1;
+         display: flex; flex-direction: column; align-items: center; justify-content: center; color: #0d0d0d; }
+  .mark { display: flex; align-items: center; gap: 22px; }
+  .dot { width: 56px; height: 56px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #fbcfe8, #c4b5fd 45%, #7dd3fc);
+         box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.6), 0 6px 24px rgba(139, 92, 246, 0.18); }
+  h1 { font-size: 104px; font-weight: 600; letter-spacing: -0.055em; margin: 0 0 6px; line-height: 1; }
+  p { font-size: 25px; color: #8a8984; margin: 22px 0 0; letter-spacing: -0.01em; }
+  p b { color: #0d0d0d; font-weight: 500; }
+  .cta { display: flex; gap: 10px; margin-top: 30px; }
+  .cta span { font-size: 15px; padding: 9px 18px; border-radius: 99px; background: #fff; color: #2a2a28;
+              box-shadow: 0 1px 2px rgba(13, 13, 13, 0.04), 0 8px 28px rgba(13, 13, 13, 0.07); }
+</style>
+</head>
+<body>
+  <div class="mark"><span class="dot"></span><h1>open-annie</h1></div>
+  <p><b>The model that talks is not the model that moves.</b></p>
+  <div class="cta"><span>Apache-2.0</span><span>GPT-Live-1 × Jev</span><span>three.js + VRM in the browser</span><span>Broker on fal serverless</span></div>
+<script>document.fonts.ready.then(() => document.body.setAttribute("data-ready", "1"));</script>
+</body>
+</html>

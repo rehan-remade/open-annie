@@ -1,0 +1,32 @@
+open-annie
+Copyright 2026 the open-annie authors
+
+Code is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Assets are NOT covered by the Apache license. Each asset carries its own license,
+recorded per file with a sha256 in its manifest and enforced by scripts/check_assets.py:
+
+- assets/avatars/annie-b  pixiv VRoid AvatarSample_B (the default "Annie") — pixiv sample-model
+                          terms (free use, modification and redistribution; not CC0). See
+                          assets/README.md.
+- assets/avatars/annie    pixiv VRoid AvatarSample_A — the same pixiv sample-model terms.
+- assets/avatars/vivi     pixiv VRoid AvatarSample_E ("Vivi") — CC0-1.0.
+- assets/clips/annie-blender  motion authored in Blender in this repository (motion/blender) —
+                          CC0-1.0.
+- annie-core motion pack (packages/core/src/clips.js) — authored in this repository, CC0-1.0
+                          (procedural fallback).
+- demo/live/annie.wav     Annie's voice in the recorded demo session, generated live by OpenAI
+                          GPT-Live-1 (voice willow). AI-generated audio.
+- demo/audio/*_user_*.wav the demo's user lines, generated with OpenAI gpt-audio-1.5 (voice cedar).
+                          AI-generated audio.
+- demo/audio/*_annie_*.wav  the keyless preview's lines, generated with Kokoro-82M (Apache-2.0),
+                          voice af_heart.
+- demo/beat.py output     synthesised in this repository, CC0-1.0.
+- docs/media              rendered from this repository (stage, demo session, brand templates).
+
+Third-party runtime libraries (loaded from CDN, not vendored): three.js (MIT),
+@pixiv/three-vrm (MIT).
+
+Vendored: packages/core/vendor/headaudio — HeadAudio 0.1.0 (@met4citizen/headaudio) by
+Mika Suominen, MIT (licence in that directory): audio-driven viseme detection worklet and
+its pre-trained model (dist/model-en-mixed.bin).

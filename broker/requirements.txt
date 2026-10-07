@@ -1,0 +1,9 @@
+# Runtime (keep identical to REQUIREMENTS in fal_app.py)
+fastapi==0.136.3
+uvicorn==0.54.0
+httpx[http2]==0.28.1
+pydantic==2.13.4
+websockets==17.1
+# Local tests only
+pytest==9.1.1
+pytest-asyncio==1.4.0

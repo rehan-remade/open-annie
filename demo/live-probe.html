@@ -1,0 +1,28 @@
+<!doctype html><meta charset="utf-8"><title>live probe</title>
+<script type="module">
+// Smoke test: synthetic mic → GPT-Live via broker; logs every data-channel event.
+import { Bus } from "../packages/core/src/bus.js";
+import { GptLiveVoice } from "../packages/core/src/voice-gptlive.js";
+const q = new URLSearchParams(location.search);
+const ctx = new AudioContext();
+const dest = ctx.createMediaStreamDestination();
+const t0 = performance.now();
+const log = [];
+window.probe = { log, done: false };
+const bus = new Bus();
+const v = new GptLiveVoice({ bus, brokerUrl: q.get("broker"), clock: { now: () => (performance.now() - t0) / 1000 }, mic: dest.stream,
+  instructions: "You are Annie, a friendly AI character. Keep replies to one or two short sentences.",
+  onRaw: (e) => log.push({ t: (performance.now() - t0) / 1000, type: e.type, e: JSON.stringify(e).slice(0, 300) }) });
+try {
+  const s = await v.connect();
+  log.push({ t: (performance.now() - t0) / 1000, type: "connected", e: JSON.stringify({ session_id: s.session_id, expires_at: s.expires_at }) });
+  await new Promise((r) => setTimeout(r, 2500));
+  const buf = await ctx.decodeAudioData(await (await fetch("audio/01_user_blink.wav")).arrayBuffer());
+  const src = ctx.createBufferSource(); src.buffer = buf; src.connect(dest); src.start();
+  log.push({ t: (performance.now() - t0) / 1000, type: "user_audio_start", e: "" });
+  setInterval(() => { const f = v.tick((performance.now() - t0) / 1000, false); if (f && f.amp > 0.04) log.push({ t: (performance.now() - t0) / 1000, type: "energy", e: f.db.toFixed(1) }); }, 100);
+  await new Promise((r) => setTimeout(r, 12000));
+  v.close();
+} catch (err) { log.push({ t: 0, type: "error", e: String(err) }); }
+window.probe.done = true;
+</script>

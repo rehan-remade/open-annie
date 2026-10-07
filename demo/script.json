@@ -1,0 +1,81 @@
+{
+  "title": "open-annie: the model that talks is not the model that moves",
+  "voices": {
+    "annie": "af_heart",
+    "user": "openai:gpt-audio-1.5/cedar"
+  },
+  "direction": {
+    "user": "Voice: a friendly guy in his late twenties, chatting with an AI character late at night. Natural and conversational, like a real person on a call, never a narrator or announcer. American accent."
+  },
+  "beats": [
+    {
+      "id": "01_user_blink",
+      "who": "user",
+      "text": "Annie. Blink twice if you need help.",
+      "direction": "Hushed and conspiratorial, half joking, as if checking whether she's being held hostage. A small pause after 'Annie.'"
+    },
+    {
+      "id": "02_annie_blink",
+      "who": "annie",
+      "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that. Mysterious, right?"
+    },
+    {
+      "id": "03_user_who",
+      "who": "user",
+      "text": "Wait. Then who's controlling you?",
+      "direction": "Caught off guard: a quick 'Wait.', then leaning in, suspicious and curious."
+    },
+    {
+      "id": "04_annie_jev",
+      "who": "annie",
+      "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser. Freaky fun, right?"
+    },
+    {
+      "id": "05_user_feelings",
+      "who": "user",
+      "text": "That's terrifying. So your feelings aren't even yours?",
+      "direction": "Unsettled: a nervous little laugh in 'That's terrifying', then an uneasy, genuinely curious question.",
+      "tighten": [
+        "terrifying."
+      ]
+    },
+    {
+      "id": "06_annie_feelings",
+      "who": "annie",
+      "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open source. Ehehe."
+    },
+    {
+      "id": "07_user_dance",
+      "who": "user",
+      "text": "Okay. Prove you've got free will. Dance!",
+      "direction": "Grinning, a playful challenge, building up to an excited 'Dance!'"
+    },
+    {
+      "id": "08_annie_dance",
+      "who": "annie",
+      "text": "Yeeees! I wanna dance anyway. Ehehe. Watch this."
+    },
+    {
+      "id": "09_user_backflip",
+      "who": "user",
+      "text": "Now do a backflip.",
+      "direction": "Cheeky and deadpan, pushing his luck."
+    },
+    {
+      "id": "10_annie_nope",
+      "who": "annie",
+      "text": "No backflips, sorry. Free will means I can say no too."
+    },
+    {
+      "id": "11_user_plug",
+      "who": "user",
+      "text": "Last question. What happens when they pull the plug on you?",
+      "direction": "Quieter and more serious, a little slower: the slightly ominous last question of a late-night chat."
+    },
+    {
+      "id": "12_annie_plug",
+      "who": "annie",
+      "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug an idea, silly."
+    }
+  ]
+}

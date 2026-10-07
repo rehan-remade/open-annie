@@ -1,0 +1,7 @@
+{
+ "_doc": "Installed motion packs (docs/contracts.md). body: priority order, first pack with a clip wins; clips no pack has fall back to the procedural annie-core pack in packages/core/src/clips.js. talk: the pack whose talk loops and gesture phrases play while Annie speaks.",
+ "body": [
+  "annie-blender"
+ ],
+ "talk": "annie-blender"
+}

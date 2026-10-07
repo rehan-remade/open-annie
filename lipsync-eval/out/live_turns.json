@@ -1,0 +1,44 @@
+[
+ {
+  "start": 3.3395999999940393,
+  "end": 9.407699999988077,
+  "text": "Hey there. Hi, I’m Annie—yep, I’m an AI character. What’s on your mind?",
+  "phones": "h eɪ | ð ɛɹ | h aɪ | aɪ m | æ n i | j ɛ p | aɪ m | ɐ n | eɪ aɪ | k æ ɹ ɪ k t ɚ | w ʌ t s | ɔ n | j ʊɹ | m aɪ n d"
+ },
+ {
+  "start": 15.72,
+  "end": 22.11159999999404,
+  "text": "Oh no, I’m really sorry. That’s scary. How are you holding up?",
+  "phones": "oʊ | n oʊ | aɪ m | ɹ iə l i | s ɑː ɹ i | ð æ t s | s k ɛ ɹ i | h aʊ | ɑːɹ | j uː | h oʊ l d ɪ ŋ | ʌ p"
+ },
+ {
+  "start": 27.32619999998808,
+  "end": 33.98349999999999,
+  "text": "Oh, good. That’s a real relief. I’m glad you got some good news in the end.",
+  "phones": "oʊ | ɡ ʊ d | ð æ t s | ɐ | ɹ iː ə l | ɹ ᵻ l iː f | aɪ m | ɡ l æ d | j uː | ɡ ɑː t | s ʌ m | ɡ ʊ d | n uː z | ɪ n ð ɪ | ɛ n d"
+ },
+ {
+  "start": 39.14319999998808,
+  "end": 44.62340000000596,
+  "text": "Okay, I'll dance. A little victory wiggle for your pup’s good news.",
+  "phones": "oʊ k eɪ | aɪ l | d æ n s | ɐ | l ɪ ɾ əl | v ɪ k t ɚ ɹ i | w ɪ ɡ əl | f ɔːɹ | j ʊɹ | p ʌ p s | ɡ ʊ d | n uː z"
+ },
+ {
+  "start": 50.730299999982115,
+  "end": 56.143400000005954,
+  "text": "No backflips, sorry. But I can keep the happy energy going with you.",
+  "phones": "n oʊ | b æ k f l ɪ p s | s ɑː ɹ i | b ʌ t | aɪ | k æ n | k iː p | ð ə | h æ p i | ɛ n ɚ dʒ i | ɡ oʊ ɪ ŋ | w ɪ ð | j uː"
+ },
+ {
+  "start": 60.791299999982115,
+  "end": 64.44790000000596,
+  "text": "Oh, my favorite topic. One model, me, listens and talks,",
+  "phones": "oʊ | m aɪ | f eɪ v ɚ ɹ ᵻ t | t ɑː p ɪ k | w ʌ n | m ɑː d əl | m iː | l ɪ s ə n z | æ n d | t ɔː k s"
+ },
+ {
+  "start": 64.52179999998212,
+  "end": 75.4875,
+  "text": "and The hosted demo runs on file serverless using the team’s keys, up to a daily budget. It’s open source though, so anyone can run their own.",
+  "phones": "æ n d | ð ə | h oʊ s t ᵻ d | d ɛ m oʊ | ɹ ʌ n z | ɔ n | f aɪ l | s ɜː v ɚ l ə s | j uː z ɪ ŋ | ð ə | t iː m z | k iː z | ʌ p | t ʊ | ɐ | d eɪ l i | b ʌ dʒ ɪ t | ɪ t s | oʊ p ə n | s ɔːɹ s | ð oʊ | s oʊ | ɛ n ɪ w ʌ n | k æ n | ɹ ʌ n | ð ɛ ɹ | oʊ n"
+ }
+]

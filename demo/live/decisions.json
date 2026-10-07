@@ -1,0 +1,3565 @@
+[
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Annie. Blink",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.49,
+    "probabilities": {
+     "thinking": 0.01,
+     "joyful": 0,
+     "neutral": 0.36,
+     "sad": 0,
+     "relieved": 0,
+     "surprised": 0.02,
+     "happy": 0.01,
+     "playful": 0.51,
+     "proud": 0,
+     "shocked": 0,
+     "hurt": 0,
+     "concerned": 0,
+     "annoyed": 0.01,
+     "bored": 0,
+     "angry": 0,
+     "sleepy": 0,
+     "tender": 0,
+     "skeptical": 0,
+     "afraid": 0,
+     "curious": 0.03,
+     "embarrassed": 0,
+     "amused": 0.05
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 788,
+   "output_tokens": 196
+  },
+  "latency_ms": 105.30000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Annie. Blink twice, if",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "curious",
+    "confidence": 0.59,
+    "probabilities": {
+     "sad": 0,
+     "skeptical": 0,
+     "bored": 0,
+     "annoyed": 0,
+     "joyful": 0,
+     "afraid": 0,
+     "hurt": 0,
+     "concerned": 0.01,
+     "tender": 0,
+     "sleepy": 0,
+     "shocked": 0,
+     "embarrassed": 0,
+     "happy": 0,
+     "proud": 0,
+     "relieved": 0,
+     "curious": 0.61,
+     "amused": 0.01,
+     "thinking": 0.06,
+     "playful": 0.12,
+     "surprised": 0.02,
+     "neutral": 0.17,
+     "angry": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 791,
+   "output_tokens": 196
+  },
+  "latency_ms": 138.30000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Annie. Blink twice, if you need help",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "concerned",
+    "confidence": 0.26,
+    "probabilities": {
+     "sleepy": 0,
+     "bored": 0,
+     "happy": 0.01,
+     "concerned": 0.29000000000000004,
+     "curious": 0.15,
+     "annoyed": 0,
+     "hurt": 0,
+     "sad": 0,
+     "afraid": 0,
+     "amused": 0.04,
+     "embarrassed": 0,
+     "angry": 0,
+     "neutral": 0.26,
+     "tender": 0.01,
+     "proud": 0,
+     "skeptical": 0,
+     "relieved": 0,
+     "joyful": 0,
+     "shocked": 0,
+     "playful": 0.17,
+     "surprised": 0.02,
+     "thinking": 0.05
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 794,
+   "output_tokens": 197
+  },
+  "latency_ms": 151.30000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Oh nooo... that old",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "what": {
+    "type": "choice",
+    "choice": "sad_slump",
+    "confidence": 0.37,
+    "probabilities": {
+     "point_self": 0,
+     "excited_bounce": 0,
+     "shrug": 0.39,
+     "clap": 0,
+     "dance": 0,
+     "surprised_recoil": 0.09,
+     "bow": 0,
+     "none": 0.06,
+     "sad_slump": 0.42,
+     "laugh": 0.04,
+     "wave": 0,
+     "think": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "scoff",
+    "confidence": 0.43,
+    "probabilities": {
+     "recoil": 0.19,
+     "celebrate": 0,
+     "scoff": 0.49,
+     "bashful": 0.02,
+     "disagree": 0.02,
+     "none": 0.19,
+     "agree": 0.02,
+     "ponder": 0,
+     "empathize": 0.07
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "annoyed",
+    "confidence": 0.4,
+    "probabilities": {
+     "surprised": 0.01,
+     "relieved": 0,
+     "angry": 0,
+     "tender": 0,
+     "thinking": 0,
+     "joyful": 0,
+     "afraid": 0,
+     "curious": 0,
+     "sleepy": 0,
+     "shocked": 0.01,
+     "bored": 0.01,
+     "neutral": 0,
+     "sad": 0.05,
+     "embarrassed": 0.01,
+     "playful": 0.13,
+     "proud": 0,
+     "happy": 0,
+     "annoyed": 0.43,
+     "hurt": 0.01,
+     "amused": 0.07,
+     "skeptical": 0.01,
+     "concerned": 0.26
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "gentle",
+    "confidence": 0.33,
+    "probabilities": {
+     "moderate": 0.42,
+     "high": 0.03,
+     "gentle": 0.55
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1464,
+   "output_tokens": 455
+  },
+  "latency_ms": 117.5,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": true,
+  "text": "Annie. Blink twice, if you need help",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "neutral",
+    "confidence": 0.41,
+    "probabilities": {
+     "proud": 0,
+     "bored": 0,
+     "tender": 0.01,
+     "neutral": 0.44,
+     "sleepy": 0,
+     "hurt": 0,
+     "joyful": 0,
+     "happy": 0.03,
+     "relieved": 0,
+     "concerned": 0.12,
+     "amused": 0.06,
+     "skeptical": 0,
+     "embarrassed": 0,
+     "thinking": 0.04,
+     "shocked": 0,
+     "afraid": 0,
+     "annoyed": 0,
+     "playful": 0.19,
+     "curious": 0.1,
+     "sad": 0,
+     "angry": 0,
+     "surprised": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 805,
+   "output_tokens": 195
+  },
+  "latency_ms": 135,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Oh nooo... that old meme. Hehe",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "what": {
+    "type": "choice",
+    "choice": "laugh",
+    "confidence": 0.89,
+    "probabilities": {
+     "bow": 0,
+     "laugh": 0.9,
+     "dance": 0,
+     "clap": 0,
+     "think": 0,
+     "surprised_recoil": 0,
+     "shrug": 0.09,
+     "point_self": 0,
+     "none": 0.01,
+     "sad_slump": 0,
+     "excited_bounce": 0,
+     "wave": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "scoff",
+    "confidence": 0.76,
+    "probabilities": {
+     "ponder": 0,
+     "disagree": 0.01,
+     "recoil": 0.01,
+     "agree": 0.05,
+     "bashful": 0.03,
+     "celebrate": 0,
+     "empathize": 0,
+     "none": 0.11,
+     "scoff": 0.79
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "amused",
+    "confidence": 0.84,
+    "probabilities": {
+     "surprised": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "neutral": 0,
+     "amused": 0.85,
+     "skeptical": 0,
+     "shocked": 0,
+     "embarrassed": 0,
+     "bored": 0,
+     "tender": 0,
+     "annoyed": 0,
+     "concerned": 0,
+     "angry": 0,
+     "curious": 0,
+     "joyful": 0,
+     "hurt": 0,
+     "playful": 0.15,
+     "proud": 0,
+     "afraid": 0,
+     "thinking": 0,
+     "happy": 0,
+     "relieved": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.88,
+    "probabilities": {
+     "moderate": 0.92,
+     "gentle": 0.02,
+     "high": 0.06
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1468,
+   "output_tokens": 453
+  },
+  "latency_ms": 114.30000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Oh nooo... that old meme. Hehe. I'm Annie,",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "what": {
+    "type": "choice",
+    "choice": "point_self",
+    "confidence": 0.63,
+    "probabilities": {
+     "shrug": 0.01,
+     "laugh": 0.3,
+     "surprised_recoil": 0.01,
+     "bow": 0,
+     "sad_slump": 0,
+     "think": 0,
+     "wave": 0.02,
+     "clap": 0,
+     "dance": 0,
+     "excited_bounce": 0,
+     "point_self": 0.66,
+     "none": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "scoff",
+    "confidence": 0.7,
+    "probabilities": {
+     "disagree": 0.01,
+     "bashful": 0.02,
+     "recoil": 0.02,
+     "scoff": 0.73,
+     "empathize": 0,
+     "agree": 0.06,
+     "celebrate": 0,
+     "ponder": 0,
+     "none": 0.16
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "amused",
+    "confidence": 0.8,
+    "probabilities": {
+     "sleepy": 0,
+     "sad": 0,
+     "happy": 0,
+     "concerned": 0,
+     "bored": 0,
+     "surprised": 0,
+     "hurt": 0,
+     "angry": 0,
+     "afraid": 0,
+     "amused": 0.81,
+     "embarrassed": 0,
+     "annoyed": 0,
+     "neutral": 0,
+     "tender": 0,
+     "proud": 0,
+     "skeptical": 0,
+     "relieved": 0,
+     "joyful": 0,
+     "shocked": 0,
+     "playful": 0.19,
+     "curious": 0,
+     "thinking": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.83,
+    "probabilities": {
+     "gentle": 0.01,
+     "moderate": 0.89,
+     "high": 0.1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1472,
+   "output_tokens": 453
+  },
+  "latency_ms": 141.10000002384186,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "what": {
+    "type": "choice",
+    "choice": "point_self",
+    "confidence": 0.48,
+    "probabilities": {
+     "shrug": 0.02,
+     "point_self": 0.52,
+     "think": 0,
+     "clap": 0,
+     "sad_slump": 0,
+     "dance": 0,
+     "bow": 0,
+     "excited_bounce": 0,
+     "surprised_recoil": 0,
+     "laugh": 0.41,
+     "none": 0.01,
+     "wave": 0.04
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "scoff",
+    "confidence": 0.67,
+    "probabilities": {
+     "scoff": 0.71,
+     "disagree": 0.01,
+     "celebrate": 0,
+     "ponder": 0,
+     "recoil": 0.01,
+     "bashful": 0.02,
+     "none": 0.19,
+     "agree": 0.06,
+     "empathize": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "amused",
+    "confidence": 0.74,
+    "probabilities": {
+     "relieved": 0,
+     "angry": 0,
+     "thinking": 0,
+     "shocked": 0,
+     "amused": 0.75,
+     "skeptical": 0,
+     "curious": 0,
+     "bored": 0,
+     "annoyed": 0,
+     "happy": 0,
+     "afraid": 0,
+     "hurt": 0,
+     "concerned": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "tender": 0,
+     "neutral": 0,
+     "proud": 0,
+     "embarrassed": 0,
+     "playful": 0.25,
+     "surprised": 0,
+     "joyful": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.89,
+    "probabilities": {
+     "high": 0.06,
+     "moderate": 0.93,
+     "gentle": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1476,
+   "output_tokens": 453
+  },
+  "latency_ms": 110.40000003576279,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": true,
+  "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that. Mysterious, right?",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "point_self",
+    "confidence": 0.42,
+    "probabilities": {
+     "clap": 0,
+     "sad_slump": 0,
+     "think": 0.03,
+     "dance": 0,
+     "laugh": 0.38,
+     "none": 0.01,
+     "bow": 0,
+     "excited_bounce": 0,
+     "shrug": 0.09,
+     "surprised_recoil": 0,
+     "point_self": 0.47,
+     "wave": 0.02
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "scoff",
+    "confidence": 0.38,
+    "probabilities": {
+     "agree": 0.02,
+     "none": 0.17,
+     "ponder": 0,
+     "disagree": 0.34,
+     "celebrate": 0,
+     "scoff": 0.45,
+     "bashful": 0.01,
+     "empathize": 0,
+     "recoil": 0.01
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "amused",
+    "confidence": 0.5,
+    "probabilities": {
+     "shocked": 0,
+     "curious": 0,
+     "joyful": 0,
+     "tender": 0,
+     "concerned": 0,
+     "hurt": 0,
+     "sad": 0,
+     "relieved": 0,
+     "thinking": 0,
+     "playful": 0.48,
+     "bored": 0,
+     "sleepy": 0,
+     "skeptical": 0,
+     "happy": 0,
+     "amused": 0.52,
+     "neutral": 0,
+     "afraid": 0,
+     "angry": 0,
+     "embarrassed": 0,
+     "surprised": 0,
+     "proud": 0,
+     "annoyed": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.88,
+    "probabilities": {
+     "high": 0.08,
+     "gentle": 0,
+     "moderate": 0.92
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1505,
+   "output_tokens": 453
+  },
+  "latency_ms": 118.30000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Wait. Then",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "curious",
+    "confidence": 0.59,
+    "probabilities": {
+     "hurt": 0,
+     "shocked": 0,
+     "joyful": 0,
+     "tender": 0,
+     "proud": 0,
+     "happy": 0,
+     "neutral": 0.03,
+     "bored": 0,
+     "concerned": 0,
+     "skeptical": 0,
+     "amused": 0,
+     "angry": 0,
+     "thinking": 0.26,
+     "embarrassed": 0,
+     "relieved": 0,
+     "annoyed": 0,
+     "curious": 0.61,
+     "playful": 0.01,
+     "afraid": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "surprised": 0.09
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 849,
+   "output_tokens": 196
+  },
+  "latency_ms": 328.2999999523163,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Wait. Then, who's controlling",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "curious",
+    "confidence": 0.8,
+    "probabilities": {
+     "skeptical": 0,
+     "happy": 0,
+     "tender": 0,
+     "hurt": 0,
+     "curious": 0.81,
+     "concerned": 0,
+     "relieved": 0,
+     "sad": 0,
+     "annoyed": 0,
+     "sleepy": 0,
+     "surprised": 0.02,
+     "afraid": 0,
+     "angry": 0,
+     "proud": 0,
+     "amused": 0.01,
+     "embarrassed": 0,
+     "shocked": 0,
+     "neutral": 0.01,
+     "joyful": 0,
+     "bored": 0,
+     "thinking": 0.12,
+     "playful": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 853,
+   "output_tokens": 196
+  },
+  "latency_ms": 140.39999997615814,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "It's like a tag team,",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.96,
+    "probabilities": {
+     "clap": 0,
+     "sad_slump": 0,
+     "laugh": 0,
+     "shrug": 0.03,
+     "point_self": 0,
+     "wave": 0,
+     "dance": 0,
+     "think": 0.96,
+     "surprised_recoil": 0,
+     "none": 0.01,
+     "excited_bounce": 0,
+     "bow": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.62,
+    "probabilities": {
+     "recoil": 0.04,
+     "disagree": 0,
+     "celebrate": 0,
+     "empathize": 0,
+     "scoff": 0,
+     "agree": 0,
+     "none": 0.66,
+     "ponder": 0.3,
+     "bashful": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.54,
+    "probabilities": {
+     "relieved": 0,
+     "hurt": 0,
+     "shocked": 0,
+     "surprised": 0,
+     "afraid": 0,
+     "annoyed": 0,
+     "joyful": 0,
+     "proud": 0,
+     "sleepy": 0,
+     "skeptical": 0,
+     "neutral": 0,
+     "bored": 0,
+     "happy": 0,
+     "concerned": 0,
+     "thinking": 0.4,
+     "embarrassed": 0,
+     "angry": 0,
+     "amused": 0.03,
+     "sad": 0,
+     "curious": 0,
+     "playful": 0.56,
+     "tender": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.92,
+    "probabilities": {
+     "gentle": 0.01,
+     "high": 0.04,
+     "moderate": 0.95
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1462,
+   "output_tokens": 450
+  },
+  "latency_ms": 106.09999996423721,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": true,
+  "text": "Wait. Then, who's controlling you",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "curious",
+    "confidence": 0.75,
+    "probabilities": {
+     "sleepy": 0,
+     "neutral": 0.01,
+     "joyful": 0,
+     "sad": 0,
+     "relieved": 0,
+     "surprised": 0.02,
+     "happy": 0,
+     "playful": 0.03,
+     "proud": 0,
+     "shocked": 0,
+     "hurt": 0,
+     "concerned": 0.01,
+     "thinking": 0.13,
+     "bored": 0,
+     "angry": 0,
+     "tender": 0,
+     "annoyed": 0,
+     "skeptical": 0.03,
+     "afraid": 0,
+     "curious": 0.76,
+     "embarrassed": 0,
+     "amused": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 865,
+   "output_tokens": 196
+  },
+  "latency_ms": 221.19999998807907,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "It's like a tag team, actually. I",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.93,
+    "probabilities": {
+     "point_self": 0.04,
+     "shrug": 0.01,
+     "think": 0.94,
+     "sad_slump": 0,
+     "dance": 0,
+     "clap": 0,
+     "bow": 0,
+     "laugh": 0,
+     "surprised_recoil": 0,
+     "excited_bounce": 0,
+     "wave": 0,
+     "none": 0.01
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.51,
+    "probabilities": {
+     "scoff": 0,
+     "disagree": 0,
+     "ponder": 0.12,
+     "celebrate": 0,
+     "recoil": 0.32,
+     "bashful": 0,
+     "none": 0.56,
+     "agree": 0,
+     "empathize": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "thinking",
+    "confidence": 0.47,
+    "probabilities": {
+     "relieved": 0,
+     "shocked": 0,
+     "thinking": 0.49,
+     "angry": 0,
+     "amused": 0.03,
+     "skeptical": 0,
+     "bored": 0,
+     "curious": 0.01,
+     "annoyed": 0,
+     "happy": 0,
+     "afraid": 0,
+     "hurt": 0,
+     "concerned": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "tender": 0,
+     "neutral": 0,
+     "proud": 0,
+     "embarrassed": 0,
+     "playful": 0.47,
+     "surprised": 0,
+     "joyful": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.94,
+    "probabilities": {
+     "high": 0.04,
+     "moderate": 0.96,
+     "gentle": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1466,
+   "output_tokens": 449
+  },
+  "latency_ms": 235.60000002384186,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "It's like a tag team, actually. I say the",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.08
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.95,
+    "probabilities": {
+     "none": 0.01,
+     "bow": 0,
+     "wave": 0,
+     "laugh": 0,
+     "dance": 0,
+     "surprised_recoil": 0,
+     "shrug": 0.01,
+     "point_self": 0.03,
+     "sad_slump": 0,
+     "clap": 0,
+     "excited_bounce": 0,
+     "think": 0.95
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.57,
+    "probabilities": {
+     "empathize": 0,
+     "none": 0.62,
+     "celebrate": 0,
+     "recoil": 0.23,
+     "disagree": 0,
+     "agree": 0,
+     "bashful": 0,
+     "scoff": 0,
+     "ponder": 0.15
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.5,
+    "probabilities": {
+     "angry": 0,
+     "skeptical": 0,
+     "bored": 0,
+     "annoyed": 0,
+     "joyful": 0,
+     "afraid": 0,
+     "tender": 0,
+     "concerned": 0,
+     "hurt": 0,
+     "sleepy": 0,
+     "shocked": 0,
+     "embarrassed": 0,
+     "proud": 0,
+     "happy": 0,
+     "relieved": 0,
+     "amused": 0.03,
+     "curious": 0,
+     "surprised": 0,
+     "playful": 0.52,
+     "thinking": 0.45,
+     "neutral": 0,
+     "sad": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.92,
+    "probabilities": {
+     "high": 0.05,
+     "moderate": 0.95,
+     "gentle": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1468,
+   "output_tokens": 450
+  },
+  "latency_ms": 120.39999997615814,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "It's like a tag team, actually. I say the words, and",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.09
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.96,
+    "probabilities": {
+     "shrug": 0.01,
+     "laugh": 0,
+     "none": 0,
+     "bow": 0,
+     "excited_bounce": 0,
+     "think": 0.96,
+     "clap": 0,
+     "wave": 0,
+     "dance": 0,
+     "sad_slump": 0,
+     "point_self": 0.03,
+     "surprised_recoil": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.55,
+    "probabilities": {
+     "agree": 0,
+     "disagree": 0,
+     "recoil": 0.26,
+     "scoff": 0,
+     "empathize": 0,
+     "bashful": 0,
+     "celebrate": 0,
+     "ponder": 0.14,
+     "none": 0.6
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "thinking",
+    "confidence": 0.57,
+    "probabilities": {
+     "annoyed": 0,
+     "sleepy": 0,
+     "happy": 0,
+     "concerned": 0,
+     "curious": 0,
+     "bored": 0,
+     "hurt": 0,
+     "sad": 0,
+     "afraid": 0,
+     "amused": 0.02,
+     "embarrassed": 0,
+     "shocked": 0,
+     "neutral": 0,
+     "tender": 0,
+     "proud": 0,
+     "skeptical": 0,
+     "relieved": 0,
+     "angry": 0,
+     "joyful": 0,
+     "playful": 0.39,
+     "surprised": 0,
+     "thinking": 0.59
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.95,
+    "probabilities": {
+     "gentle": 0,
+     "moderate": 0.97,
+     "high": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1471,
+   "output_tokens": 449
+  },
+  "latency_ms": 113.09999996423721,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": true,
+  "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser. Freaky fun, right?",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.21
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.87,
+    "probabilities": {
+     "laugh": 0.01,
+     "none": 0.01,
+     "surprised_recoil": 0,
+     "point_self": 0.07,
+     "think": 0.88,
+     "dance": 0,
+     "excited_bounce": 0.02,
+     "sad_slump": 0,
+     "bow": 0,
+     "clap": 0,
+     "shrug": 0.01,
+     "wave": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.91,
+    "probabilities": {
+     "scoff": 0,
+     "none": 0.92,
+     "ponder": 0.08,
+     "celebrate": 0,
+     "empathize": 0,
+     "disagree": 0,
+     "recoil": 0,
+     "bashful": 0,
+     "agree": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.62,
+    "probabilities": {
+     "playful": 0.64,
+     "amused": 0.28,
+     "joyful": 0,
+     "tender": 0,
+     "skeptical": 0,
+     "shocked": 0,
+     "concerned": 0,
+     "relieved": 0,
+     "annoyed": 0,
+     "neutral": 0,
+     "sad": 0,
+     "bored": 0,
+     "angry": 0,
+     "surprised": 0,
+     "thinking": 0.08,
+     "sleepy": 0,
+     "afraid": 0,
+     "proud": 0,
+     "happy": 0,
+     "embarrassed": 0,
+     "curious": 0,
+     "hurt": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "high",
+    "confidence": 0.46,
+    "probabilities": {
+     "moderate": 0.36,
+     "high": 0.64,
+     "gentle": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1508,
+   "output_tokens": 449
+  },
+  "latency_ms": 143.10000002384186,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "That's [chuckle",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "amused",
+    "confidence": 0.99,
+    "probabilities": {
+     "skeptical": 0,
+     "happy": 0,
+     "tender": 0,
+     "hurt": 0,
+     "curious": 0,
+     "concerned": 0,
+     "sad": 0,
+     "relieved": 0,
+     "sleepy": 0,
+     "annoyed": 0,
+     "surprised": 0,
+     "angry": 0,
+     "amused": 0.99,
+     "proud": 0,
+     "afraid": 0,
+     "embarrassed": 0,
+     "shocked": 0,
+     "playful": 0,
+     "joyful": 0,
+     "bored": 0,
+     "neutral": 0.01,
+     "thinking": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 919,
+   "output_tokens": 196
+  },
+  "latency_ms": 107.69999998807907,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "That's [chuckle ]that's- th- that's terrifying",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "amused",
+    "confidence": 0.22,
+    "probabilities": {
+     "thinking": 0,
+     "surprised": 0.02,
+     "shocked": 0.04,
+     "happy": 0,
+     "sleepy": 0,
+     "angry": 0,
+     "embarrassed": 0,
+     "playful": 0.11,
+     "afraid": 0.24,
+     "hurt": 0.01,
+     "curious": 0.01,
+     "skeptical": 0,
+     "annoyed": 0,
+     "sad": 0,
+     "bored": 0,
+     "neutral": 0,
+     "tender": 0.08,
+     "concerned": 0.23,
+     "joyful": 0,
+     "proud": 0,
+     "amused": 0.26,
+     "relieved": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 928,
+   "output_tokens": 196
+  },
+  "latency_ms": 132.9000000357628,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your feelings",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "concerned",
+    "confidence": 0.25,
+    "probabilities": {
+     "afraid": 0.17,
+     "amused": 0.17,
+     "annoyed": 0,
+     "tender": 0.11,
+     "skeptical": 0,
+     "shocked": 0.06,
+     "concerned": 0.28,
+     "relieved": 0,
+     "joyful": 0,
+     "neutral": 0.01,
+     "sad": 0,
+     "bored": 0,
+     "angry": 0,
+     "sleepy": 0,
+     "thinking": 0,
+     "surprised": 0.04,
+     "playful": 0.04,
+     "proud": 0,
+     "happy": 0,
+     "embarrassed": 0,
+     "hurt": 0.04,
+     "curious": 0.07
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 935,
+   "output_tokens": 197
+  },
+  "latency_ms": 117.80000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your feelings aren't even yours",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "concerned",
+    "confidence": 0.35,
+    "probabilities": {
+     "surprised": 0.02,
+     "sad": 0,
+     "tender": 0.17,
+     "neutral": 0.01,
+     "amused": 0.06,
+     "shocked": 0.06,
+     "embarrassed": 0,
+     "sleepy": 0,
+     "bored": 0,
+     "skeptical": 0,
+     "annoyed": 0,
+     "concerned": 0.38,
+     "angry": 0,
+     "curious": 0.01,
+     "joyful": 0,
+     "hurt": 0.07,
+     "playful": 0.04,
+     "proud": 0,
+     "afraid": 0.17,
+     "thinking": 0.01,
+     "happy": 0,
+     "relieved": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 939,
+   "output_tokens": 197
+  },
+  "latency_ms": 130,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": true,
+  "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your feelings aren't even yours",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "concerned",
+    "confidence": 0.32,
+    "probabilities": {
+     "thinking": 0.01,
+     "skeptical": 0,
+     "hurt": 0.04,
+     "tender": 0.15000000000000002,
+     "curious": 0.02,
+     "afraid": 0.13,
+     "shocked": 0.04,
+     "sleepy": 0,
+     "angry": 0,
+     "playful": 0.11,
+     "bored": 0,
+     "concerned": 0.35000000000000003,
+     "proud": 0,
+     "amused": 0.12,
+     "joyful": 0,
+     "annoyed": 0,
+     "happy": 0,
+     "relieved": 0,
+     "embarrassed": 0,
+     "sad": 0,
+     "neutral": 0.01,
+     "surprised": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 956,
+   "output_tokens": 197
+  },
+  "latency_ms": 109.19999998807907,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Hmm. Yours come from",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.99,
+    "probabilities": {
+     "laugh": 0,
+     "sad_slump": 0,
+     "clap": 0,
+     "shrug": 0,
+     "point_self": 0,
+     "wave": 0,
+     "dance": 0,
+     "think": 0.99,
+     "surprised_recoil": 0.01,
+     "none": 0,
+     "excited_bounce": 0,
+     "bow": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "ponder",
+    "confidence": 0.43,
+    "probabilities": {
+     "recoil": 0.24,
+     "disagree": 0,
+     "celebrate": 0,
+     "agree": 0,
+     "scoff": 0,
+     "empathize": 0.02,
+     "none": 0.25,
+     "bashful": 0,
+     "ponder": 0.49
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "thinking",
+    "confidence": 0.83,
+    "probabilities": {
+     "relieved": 0,
+     "tender": 0,
+     "shocked": 0,
+     "surprised": 0,
+     "afraid": 0,
+     "joyful": 0,
+     "annoyed": 0,
+     "proud": 0,
+     "skeptical": 0,
+     "sleepy": 0,
+     "neutral": 0,
+     "bored": 0,
+     "sad": 0,
+     "concerned": 0.05,
+     "thinking": 0.84,
+     "embarrassed": 0,
+     "angry": 0,
+     "amused": 0,
+     "playful": 0,
+     "curious": 0.1,
+     "happy": 0,
+     "hurt": 0.01
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "gentle",
+    "confidence": 0.4,
+    "probabilities": {
+     "gentle": 0.6,
+     "high": 0.02,
+     "moderate": 0.38
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1479,
+   "output_tokens": 449
+  },
+  "latency_ms": 177.30000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Hmm. Yours come from brain chemistry.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.99,
+    "probabilities": {
+     "think": 0.99,
+     "sad_slump": 0,
+     "surprised_recoil": 0,
+     "shrug": 0.01,
+     "laugh": 0,
+     "clap": 0,
+     "bow": 0,
+     "none": 0,
+     "wave": 0,
+     "point_self": 0,
+     "excited_bounce": 0,
+     "dance": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.43,
+    "probabilities": {
+     "empathize": 0.01,
+     "scoff": 0.1,
+     "ponder": 0.32,
+     "bashful": 0,
+     "agree": 0.01,
+     "none": 0.49,
+     "disagree": 0.01,
+     "recoil": 0.06,
+     "celebrate": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "thinking",
+    "confidence": 0.56,
+    "probabilities": {
+     "angry": 0,
+     "playful": 0.27,
+     "embarrassed": 0,
+     "afraid": 0,
+     "joyful": 0,
+     "proud": 0,
+     "skeptical": 0,
+     "curious": 0.01,
+     "relieved": 0,
+     "sad": 0,
+     "surprised": 0,
+     "annoyed": 0,
+     "thinking": 0.58,
+     "bored": 0,
+     "shocked": 0,
+     "concerned": 0.01,
+     "happy": 0,
+     "hurt": 0,
+     "sleepy": 0,
+     "amused": 0.05,
+     "neutral": 0.08,
+     "tender": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.33,
+    "probabilities": {
+     "moderate": 0.55,
+     "high": 0.01,
+     "gentle": 0.44
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1481,
+   "output_tokens": 449
+  },
+  "latency_ms": 107.69999998807907,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Hmm. Yours come from brain chemistry. Mine come",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.97,
+    "probabilities": {
+     "laugh": 0,
+     "sad_slump": 0,
+     "clap": 0,
+     "point_self": 0.02,
+     "shrug": 0,
+     "wave": 0,
+     "dance": 0,
+     "think": 0.97,
+     "surprised_recoil": 0.01,
+     "none": 0,
+     "excited_bounce": 0,
+     "bow": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "recoil",
+    "confidence": 0.33,
+    "probabilities": {
+     "recoil": 0.4,
+     "disagree": 0.01,
+     "celebrate": 0,
+     "empathize": 0.01,
+     "scoff": 0,
+     "agree": 0,
+     "none": 0.25,
+     "ponder": 0.33,
+     "bashful": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "thinking",
+    "confidence": 0.86,
+    "probabilities": {
+     "hurt": 0.01,
+     "tender": 0,
+     "shocked": 0,
+     "surprised": 0,
+     "afraid": 0,
+     "joyful": 0,
+     "annoyed": 0,
+     "proud": 0,
+     "skeptical": 0,
+     "sleepy": 0,
+     "neutral": 0.01,
+     "bored": 0,
+     "happy": 0,
+     "concerned": 0.01,
+     "thinking": 0.87,
+     "sad": 0,
+     "angry": 0,
+     "amused": 0.02,
+     "playful": 0.07,
+     "curious": 0.01,
+     "embarrassed": 0,
+     "relieved": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.33,
+    "probabilities": {
+     "moderate": 0.55,
+     "gentle": 0.44,
+     "high": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1484,
+   "output_tokens": 451
+  },
+  "latency_ms": 107.59999996423721,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Hmm. Yours come from brain chemistry. Mine come from Jev.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.83,
+    "probabilities": {
+     "none": 0.01,
+     "surprised_recoil": 0.01,
+     "think": 0.84,
+     "wave": 0,
+     "laugh": 0,
+     "excited_bounce": 0,
+     "sad_slump": 0,
+     "point_self": 0.11,
+     "bow": 0,
+     "clap": 0,
+     "dance": 0,
+     "shrug": 0.03
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.47,
+    "probabilities": {
+     "celebrate": 0,
+     "empathize": 0.01,
+     "bashful": 0,
+     "agree": 0.02,
+     "recoil": 0.08,
+     "scoff": 0.01,
+     "ponder": 0.33,
+     "none": 0.53,
+     "disagree": 0.02
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.56,
+    "probabilities": {
+     "curious": 0.01,
+     "surprised": 0,
+     "hurt": 0,
+     "bored": 0,
+     "joyful": 0,
+     "playful": 0.58,
+     "thinking": 0.25,
+     "annoyed": 0,
+     "skeptical": 0,
+     "sad": 0,
+     "neutral": 0.03,
+     "concerned": 0.01,
+     "afraid": 0,
+     "amused": 0.12,
+     "angry": 0,
+     "tender": 0,
+     "relieved": 0,
+     "shocked": 0,
+     "sleepy": 0,
+     "proud": 0,
+     "embarrassed": 0,
+     "happy": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.38,
+    "probabilities": {
+     "moderate": 0.59,
+     "high": 0.02,
+     "gentle": 0.39
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1487,
+   "output_tokens": 450
+  },
+  "latency_ms": 127.09999996423721,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": true,
+  "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open source ehehe.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.35,
+    "probabilities": {
+     "shrug": 0.04,
+     "none": 0.01,
+     "surprised_recoil": 0,
+     "laugh": 0.36,
+     "wave": 0,
+     "think": 0.4,
+     "dance": 0,
+     "sad_slump": 0,
+     "clap": 0,
+     "bow": 0,
+     "point_self": 0.19,
+     "excited_bounce": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.55,
+    "probabilities": {
+     "ponder": 0.1,
+     "recoil": 0.09,
+     "scoff": 0.09,
+     "bashful": 0.02,
+     "empathize": 0.04,
+     "agree": 0.03,
+     "disagree": 0.02,
+     "celebrate": 0.01,
+     "none": 0.6
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.58,
+    "probabilities": {
+     "proud": 0,
+     "shocked": 0,
+     "neutral": 0,
+     "happy": 0,
+     "joyful": 0,
+     "hurt": 0,
+     "tender": 0,
+     "bored": 0,
+     "relieved": 0,
+     "skeptical": 0,
+     "amused": 0.39,
+     "concerned": 0,
+     "thinking": 0.01,
+     "embarrassed": 0,
+     "angry": 0,
+     "annoyed": 0,
+     "afraid": 0,
+     "playful": 0.6,
+     "curious": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "surprised": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.61,
+    "probabilities": {
+     "gentle": 0.1,
+     "moderate": 0.74,
+     "high": 0.16
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1496,
+   "output_tokens": 450
+  },
+  "latency_ms": 116.90000003576279,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Okay, prove",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "skeptical",
+    "confidence": 0.54,
+    "probabilities": {
+     "neutral": 0.01,
+     "happy": 0,
+     "joyful": 0,
+     "amused": 0.03,
+     "relieved": 0,
+     "proud": 0,
+     "tender": 0,
+     "playful": 0.19,
+     "sad": 0,
+     "concerned": 0,
+     "hurt": 0,
+     "angry": 0,
+     "annoyed": 0,
+     "skeptical": 0.5700000000000001,
+     "surprised": 0,
+     "shocked": 0,
+     "afraid": 0,
+     "curious": 0.16,
+     "thinking": 0.03,
+     "embarrassed": 0,
+     "sleepy": 0,
+     "bored": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 908,
+   "output_tokens": 197
+  },
+  "latency_ms": 116.69999998807907,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Okay, prove you've got free will",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.51,
+    "probabilities": {
+     "relieved": 0,
+     "angry": 0,
+     "thinking": 0.05,
+     "shocked": 0,
+     "joyful": 0,
+     "skeptical": 0.21000000000000002,
+     "curious": 0.12,
+     "bored": 0,
+     "annoyed": 0,
+     "happy": 0,
+     "afraid": 0,
+     "hurt": 0,
+     "concerned": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "tender": 0,
+     "neutral": 0,
+     "proud": 0,
+     "embarrassed": 0,
+     "playful": 0.53,
+     "surprised": 0,
+     "amused": 0.09
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 913,
+   "output_tokens": 196
+  },
+  "latency_ms": 279.19999998807907,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Okay, prove you've got free will. Dance",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.64,
+    "probabilities": {
+     "relieved": 0,
+     "angry": 0,
+     "thinking": 0.01,
+     "amused": 0.23,
+     "shocked": 0,
+     "skeptical": 0.06,
+     "bored": 0,
+     "curious": 0.04,
+     "annoyed": 0,
+     "happy": 0,
+     "afraid": 0,
+     "hurt": 0,
+     "concerned": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "proud": 0,
+     "neutral": 0,
+     "tender": 0,
+     "embarrassed": 0,
+     "playful": 0.66,
+     "surprised": 0,
+     "joyful": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 915,
+   "output_tokens": 196
+  },
+  "latency_ms": 112.40000003576279,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": true,
+  "text": "Okay, prove you've got free will. Dance",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.75,
+    "probabilities": {
+     "hurt": 0,
+     "relieved": 0,
+     "shocked": 0,
+     "surprised": 0,
+     "afraid": 0,
+     "annoyed": 0,
+     "joyful": 0,
+     "proud": 0,
+     "skeptical": 0.05,
+     "sleepy": 0,
+     "neutral": 0,
+     "bored": 0,
+     "sad": 0,
+     "concerned": 0,
+     "embarrassed": 0,
+     "thinking": 0.01,
+     "angry": 0,
+     "playful": 0.76,
+     "amused": 0.15,
+     "curious": 0.03,
+     "happy": 0,
+     "tender": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 917,
+   "output_tokens": 196
+  },
+  "latency_ms": 111.30000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Yeeees! I wanna dance",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.43
+   },
+   "what": {
+    "type": "choice",
+    "choice": "dance",
+    "confidence": 0.64,
+    "probabilities": {
+     "point_self": 0,
+     "excited_bounce": 0.33,
+     "shrug": 0,
+     "clap": 0,
+     "dance": 0.67,
+     "surprised_recoil": 0,
+     "bow": 0,
+     "none": 0,
+     "sad_slump": 0,
+     "laugh": 0,
+     "wave": 0,
+     "think": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "agree",
+    "confidence": 0.89,
+    "probabilities": {
+     "recoil": 0,
+     "scoff": 0,
+     "celebrate": 0.05,
+     "bashful": 0,
+     "disagree": 0,
+     "none": 0.05,
+     "empathize": 0,
+     "ponder": 0,
+     "agree": 0.9
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "joyful",
+    "confidence": 0.8,
+    "probabilities": {
+     "surprised": 0,
+     "relieved": 0,
+     "angry": 0,
+     "sad": 0,
+     "thinking": 0,
+     "tender": 0,
+     "afraid": 0,
+     "curious": 0,
+     "sleepy": 0,
+     "shocked": 0,
+     "bored": 0,
+     "neutral": 0,
+     "joyful": 0.81,
+     "embarrassed": 0,
+     "playful": 0.13,
+     "annoyed": 0,
+     "happy": 0.05,
+     "proud": 0,
+     "hurt": 0,
+     "amused": 0,
+     "skeptical": 0,
+     "concerned": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "high",
+    "confidence": 1,
+    "probabilities": {
+     "moderate": 0,
+     "high": 1,
+     "gentle": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1465,
+   "output_tokens": 449
+  },
+  "latency_ms": 111.59999996423721,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Yeeees! I wanna dance anyway ehehe",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.44
+   },
+   "what": {
+    "type": "choice",
+    "choice": "dance",
+    "confidence": 0.66,
+    "probabilities": {
+     "laugh": 0,
+     "surprised_recoil": 0,
+     "think": 0,
+     "wave": 0,
+     "none": 0,
+     "excited_bounce": 0.31,
+     "sad_slump": 0,
+     "point_self": 0,
+     "bow": 0,
+     "clap": 0,
+     "dance": 0.69,
+     "shrug": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "agree",
+    "confidence": 0.72,
+    "probabilities": {
+     "empathize": 0,
+     "celebrate": 0.05,
+     "bashful": 0.1,
+     "agree": 0.75,
+     "scoff": 0.01,
+     "recoil": 0,
+     "ponder": 0,
+     "none": 0.09,
+     "disagree": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.82,
+    "probabilities": {
+     "curious": 0,
+     "surprised": 0,
+     "hurt": 0,
+     "bored": 0,
+     "embarrassed": 0,
+     "playful": 0.83,
+     "thinking": 0,
+     "annoyed": 0,
+     "skeptical": 0,
+     "sad": 0,
+     "neutral": 0,
+     "concerned": 0,
+     "afraid": 0,
+     "amused": 0.07,
+     "angry": 0,
+     "relieved": 0,
+     "tender": 0,
+     "shocked": 0,
+     "sleepy": 0,
+     "proud": 0,
+     "joyful": 0.09,
+     "happy": 0.01
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "high",
+    "confidence": 1,
+    "probabilities": {
+     "moderate": 0,
+     "high": 1,
+     "gentle": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1468,
+   "output_tokens": 449
+  },
+  "latency_ms": 115.90000003576279,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Yeeees! I wanna dance anyway ehehe. Watch this.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.84
+   },
+   "what": {
+    "type": "choice",
+    "choice": "dance",
+    "confidence": 0.91,
+    "probabilities": {
+     "point_self": 0,
+     "shrug": 0,
+     "think": 0,
+     "clap": 0,
+     "dance": 0.92,
+     "sad_slump": 0,
+     "bow": 0,
+     "laugh": 0,
+     "surprised_recoil": 0,
+     "excited_bounce": 0.08,
+     "none": 0,
+     "wave": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "agree",
+    "confidence": 0.7,
+    "probabilities": {
+     "scoff": 0.01,
+     "disagree": 0,
+     "ponder": 0,
+     "celebrate": 0.1,
+     "recoil": 0,
+     "bashful": 0.05,
+     "none": 0.11,
+     "agree": 0.73,
+     "empathize": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.91,
+    "probabilities": {
+     "relieved": 0,
+     "shocked": 0,
+     "thinking": 0,
+     "amused": 0.03,
+     "angry": 0,
+     "skeptical": 0,
+     "bored": 0,
+     "curious": 0,
+     "annoyed": 0,
+     "hurt": 0,
+     "afraid": 0,
+     "happy": 0,
+     "concerned": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "proud": 0,
+     "neutral": 0,
+     "tender": 0,
+     "embarrassed": 0,
+     "playful": 0.91,
+     "surprised": 0,
+     "joyful": 0.06
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "high",
+    "confidence": 1,
+    "probabilities": {
+     "gentle": 0,
+     "moderate": 0,
+     "high": 1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1471,
+   "output_tokens": 449
+  },
+  "latency_ms": 149.5,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": true,
+  "text": "Yeeees! I wanna dance anyway ehehe. Watch this.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.82
+   },
+   "what": {
+    "type": "choice",
+    "choice": "dance",
+    "confidence": 0.92,
+    "probabilities": {
+     "shrug": 0,
+     "laugh": 0,
+     "surprised_recoil": 0,
+     "bow": 0,
+     "sad_slump": 0,
+     "think": 0,
+     "excited_bounce": 0.07,
+     "wave": 0,
+     "dance": 0.93,
+     "clap": 0,
+     "point_self": 0,
+     "none": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "agree",
+    "confidence": 0.72,
+    "probabilities": {
+     "bashful": 0.03,
+     "disagree": 0,
+     "scoff": 0.01,
+     "recoil": 0,
+     "empathize": 0,
+     "agree": 0.75,
+     "celebrate": 0.09,
+     "ponder": 0,
+     "none": 0.12
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.9,
+    "probabilities": {
+     "annoyed": 0,
+     "sad": 0,
+     "happy": 0,
+     "concerned": 0,
+     "surprised": 0,
+     "joyful": 0.07,
+     "hurt": 0,
+     "curious": 0,
+     "afraid": 0,
+     "amused": 0.03,
+     "embarrassed": 0,
+     "sleepy": 0,
+     "neutral": 0,
+     "tender": 0,
+     "proud": 0,
+     "skeptical": 0,
+     "relieved": 0,
+     "angry": 0,
+     "shocked": 0,
+     "playful": 0.9,
+     "bored": 0,
+     "thinking": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "high",
+    "confidence": 1,
+    "probabilities": {
+     "gentle": 0,
+     "moderate": 0,
+     "high": 1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1471,
+   "output_tokens": 449
+  },
+  "latency_ms": 91,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Now, do a",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.43,
+    "probabilities": {
+     "relieved": 0,
+     "hurt": 0,
+     "shocked": 0,
+     "surprised": 0.01,
+     "afraid": 0,
+     "annoyed": 0,
+     "joyful": 0,
+     "proud": 0,
+     "sleepy": 0,
+     "skeptical": 0.03,
+     "neutral": 0.03,
+     "bored": 0,
+     "sad": 0,
+     "concerned": 0,
+     "embarrassed": 0,
+     "thinking": 0.03,
+     "angry": 0,
+     "amused": 0.11,
+     "playful": 0.46,
+     "curious": 0.33,
+     "happy": 0,
+     "tender": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 871,
+   "output_tokens": 196
+  },
+  "latency_ms": 110.60000002384186,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "No backflips, sorry.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "what": {
+    "type": "choice",
+    "choice": "shrug",
+    "confidence": 0.61,
+    "probabilities": {
+     "none": 0.04,
+     "excited_bounce": 0,
+     "point_self": 0,
+     "dance": 0,
+     "surprised_recoil": 0,
+     "clap": 0,
+     "wave": 0,
+     "laugh": 0,
+     "bow": 0.32,
+     "sad_slump": 0,
+     "shrug": 0.64,
+     "think": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "disagree",
+    "confidence": 1,
+    "probabilities": {
+     "disagree": 1,
+     "none": 0,
+     "empathize": 0,
+     "celebrate": 0,
+     "recoil": 0,
+     "scoff": 0,
+     "bashful": 0,
+     "ponder": 0,
+     "agree": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.88,
+    "probabilities": {
+     "shocked": 0,
+     "surprised": 0,
+     "thinking": 0,
+     "happy": 0.01,
+     "playful": 0.89,
+     "angry": 0,
+     "embarrassed": 0,
+     "sleepy": 0,
+     "hurt": 0,
+     "afraid": 0,
+     "curious": 0,
+     "skeptical": 0,
+     "annoyed": 0,
+     "sad": 0,
+     "bored": 0,
+     "neutral": 0.08,
+     "tender": 0,
+     "concerned": 0,
+     "joyful": 0,
+     "proud": 0,
+     "relieved": 0,
+     "amused": 0.02
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.76,
+    "probabilities": {
+     "gentle": 0.06,
+     "high": 0.1,
+     "moderate": 0.84
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1460,
+   "output_tokens": 452
+  },
+  "latency_ms": 106.40000003576279,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": true,
+  "text": "Now, do a backflip",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.73,
+    "probabilities": {
+     "angry": 0,
+     "joyful": 0,
+     "embarrassed": 0,
+     "afraid": 0,
+     "shocked": 0,
+     "proud": 0,
+     "relieved": 0,
+     "curious": 0.06,
+     "playful": 0.74,
+     "sad": 0,
+     "concerned": 0,
+     "annoyed": 0,
+     "bored": 0,
+     "skeptical": 0.02,
+     "thinking": 0.01,
+     "surprised": 0.01,
+     "happy": 0,
+     "hurt": 0,
+     "sleepy": 0,
+     "amused": 0.14,
+     "neutral": 0.02,
+     "tender": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 853,
+   "output_tokens": 196
+  },
+  "latency_ms": 100.60000002384186,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "No backflips, sorry. Free will",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "shrug",
+    "confidence": 0.88,
+    "probabilities": {
+     "dance": 0,
+     "bow": 0.04,
+     "shrug": 0.89,
+     "surprised_recoil": 0,
+     "excited_bounce": 0,
+     "think": 0,
+     "clap": 0,
+     "wave": 0,
+     "none": 0.05,
+     "sad_slump": 0,
+     "point_self": 0.02,
+     "laugh": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "disagree",
+    "confidence": 0.99,
+    "probabilities": {
+     "recoil": 0,
+     "celebrate": 0,
+     "agree": 0,
+     "bashful": 0,
+     "disagree": 0.99,
+     "ponder": 0,
+     "none": 0.01,
+     "scoff": 0,
+     "empathize": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.98,
+    "probabilities": {
+     "joyful": 0,
+     "amused": 0.02,
+     "embarrassed": 0,
+     "afraid": 0,
+     "skeptical": 0,
+     "sleepy": 0,
+     "sad": 0,
+     "hurt": 0,
+     "surprised": 0,
+     "proud": 0,
+     "relieved": 0,
+     "thinking": 0,
+     "bored": 0,
+     "playful": 0.98,
+     "happy": 0,
+     "neutral": 0,
+     "angry": 0,
+     "annoyed": 0,
+     "tender": 0,
+     "curious": 0,
+     "shocked": 0,
+     "concerned": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.83,
+    "probabilities": {
+     "high": 0.09,
+     "moderate": 0.89,
+     "gentle": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1463,
+   "output_tokens": 452
+  },
+  "latency_ms": 110,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "No backflips, sorry. Free will means I",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "shrug",
+    "confidence": 0.44,
+    "probabilities": {
+     "none": 0.06,
+     "bow": 0.09,
+     "wave": 0,
+     "laugh": 0,
+     "dance": 0,
+     "surprised_recoil": 0,
+     "shrug": 0.49,
+     "point_self": 0.14,
+     "sad_slump": 0,
+     "clap": 0,
+     "excited_bounce": 0,
+     "think": 0.22
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "disagree",
+    "confidence": 0.99,
+    "probabilities": {
+     "none": 0.01,
+     "empathize": 0,
+     "celebrate": 0,
+     "recoil": 0,
+     "disagree": 0.99,
+     "agree": 0,
+     "bashful": 0,
+     "scoff": 0,
+     "ponder": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.91,
+    "probabilities": {
+     "angry": 0,
+     "skeptical": 0,
+     "annoyed": 0,
+     "bored": 0,
+     "afraid": 0,
+     "joyful": 0,
+     "tender": 0,
+     "concerned": 0,
+     "hurt": 0,
+     "sleepy": 0,
+     "shocked": 0,
+     "embarrassed": 0,
+     "happy": 0,
+     "proud": 0,
+     "relieved": 0,
+     "curious": 0,
+     "amused": 0.02,
+     "surprised": 0,
+     "playful": 0.91,
+     "thinking": 0.060000000000000005,
+     "neutral": 0.01,
+     "sad": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.76,
+    "probabilities": {
+     "gentle": 0.03,
+     "moderate": 0.84,
+     "high": 0.13
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1465,
+   "output_tokens": 452
+  },
+  "latency_ms": 102.5,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "No backflips, sorry. Free will means I can say no too.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "what": {
+    "type": "choice",
+    "choice": "shrug",
+    "confidence": 0.68,
+    "probabilities": {
+     "think": 0.04,
+     "none": 0.08,
+     "sad_slump": 0,
+     "shrug": 0.71,
+     "laugh": 0,
+     "surprised_recoil": 0,
+     "bow": 0.07,
+     "clap": 0,
+     "wave": 0.01,
+     "point_self": 0.09,
+     "excited_bounce": 0,
+     "dance": 0
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "disagree",
+    "confidence": 1,
+    "probabilities": {
+     "empathize": 0,
+     "scoff": 0,
+     "ponder": 0,
+     "agree": 0,
+     "bashful": 0,
+     "none": 0,
+     "disagree": 1,
+     "recoil": 0,
+     "celebrate": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.97,
+    "probabilities": {
+     "angry": 0,
+     "playful": 0.97,
+     "joyful": 0,
+     "afraid": 0,
+     "embarrassed": 0,
+     "proud": 0,
+     "skeptical": 0,
+     "curious": 0,
+     "thinking": 0,
+     "sad": 0,
+     "surprised": 0,
+     "annoyed": 0,
+     "relieved": 0,
+     "concerned": 0,
+     "bored": 0,
+     "shocked": 0,
+     "happy": 0,
+     "sleepy": 0,
+     "hurt": 0,
+     "amused": 0.03,
+     "neutral": 0,
+     "tender": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.92,
+    "probabilities": {
+     "moderate": 0.95,
+     "high": 0.03,
+     "gentle": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1469,
+   "output_tokens": 452
+  },
+  "latency_ms": 105.70000004768372,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": true,
+  "text": "No backflips, sorry. Free will means I can say no too.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "shrug",
+    "confidence": 0.71,
+    "probabilities": {
+     "clap": 0,
+     "think": 0.05,
+     "sad_slump": 0,
+     "none": 0.08,
+     "laugh": 0,
+     "dance": 0,
+     "bow": 0.07,
+     "excited_bounce": 0,
+     "shrug": 0.73,
+     "surprised_recoil": 0,
+     "point_self": 0.06,
+     "wave": 0.01
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "disagree",
+    "confidence": 1,
+    "probabilities": {
+     "agree": 0,
+     "none": 0,
+     "scoff": 0,
+     "disagree": 1,
+     "celebrate": 0,
+     "empathize": 0,
+     "ponder": 0,
+     "bashful": 0,
+     "recoil": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.97,
+    "probabilities": {
+     "shocked": 0,
+     "curious": 0,
+     "joyful": 0,
+     "tender": 0,
+     "concerned": 0,
+     "hurt": 0,
+     "sad": 0,
+     "relieved": 0,
+     "thinking": 0,
+     "playful": 0.97,
+     "bored": 0,
+     "sleepy": 0,
+     "skeptical": 0,
+     "happy": 0,
+     "amused": 0.03,
+     "neutral": 0,
+     "afraid": 0,
+     "angry": 0,
+     "embarrassed": 0,
+     "surprised": 0,
+     "proud": 0,
+     "annoyed": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.91,
+    "probabilities": {
+     "high": 0.04,
+     "gentle": 0.02,
+     "moderate": 0.94
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1469,
+   "output_tokens": 452
+  },
+  "latency_ms": 131.5,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Last question",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "curious",
+    "confidence": 0.7,
+    "probabilities": {
+     "shocked": 0,
+     "hurt": 0,
+     "annoyed": 0,
+     "tender": 0,
+     "concerned": 0,
+     "curious": 0.71,
+     "sad": 0,
+     "relieved": 0,
+     "thinking": 0.02,
+     "bored": 0,
+     "playful": 0.05,
+     "sleepy": 0,
+     "skeptical": 0,
+     "happy": 0.01,
+     "amused": 0.01,
+     "neutral": 0.2,
+     "afraid": 0,
+     "surprised": 0,
+     "embarrassed": 0,
+     "angry": 0,
+     "proud": 0,
+     "joyful": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 842,
+   "output_tokens": 196
+  },
+  "latency_ms": 119.80000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Last question. What",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "curious",
+    "confidence": 0.91,
+    "probabilities": {
+     "surprised": 0,
+     "amused": 0.01,
+     "concerned": 0,
+     "tender": 0,
+     "relieved": 0,
+     "shocked": 0,
+     "skeptical": 0,
+     "joyful": 0,
+     "annoyed": 0,
+     "neutral": 0.02,
+     "sad": 0,
+     "bored": 0,
+     "angry": 0,
+     "sleepy": 0,
+     "embarrassed": 0,
+     "thinking": 0.01,
+     "playful": 0.05,
+     "proud": 0,
+     "happy": 0,
+     "afraid": 0,
+     "curious": 0.91,
+     "hurt": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 844,
+   "output_tokens": 196
+  },
+  "latency_ms": 87.80000001192093,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": false,
+  "text": "Last question. What happens, when they pull the",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "curious",
+    "confidence": 0.93,
+    "probabilities": {
+     "joyful": 0,
+     "tender": 0,
+     "hurt": 0,
+     "shocked": 0,
+     "neutral": 0.01,
+     "playful": 0.02,
+     "surprised": 0.01,
+     "afraid": 0,
+     "embarrassed": 0,
+     "skeptical": 0,
+     "bored": 0,
+     "amused": 0.01,
+     "concerned": 0,
+     "happy": 0,
+     "thinking": 0.01,
+     "proud": 0,
+     "sad": 0,
+     "curious": 0.93,
+     "sleepy": 0,
+     "relieved": 0,
+     "annoyed": 0,
+     "angry": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 850,
+   "output_tokens": 196
+  },
+  "latency_ms": 126.89999997615814,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Oh, that's easy.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.06
+   },
+   "what": {
+    "type": "choice",
+    "choice": "shrug",
+    "confidence": 0.42,
+    "probabilities": {
+     "shrug": 0.47000000000000003,
+     "surprised_recoil": 0,
+     "sad_slump": 0,
+     "laugh": 0.03,
+     "wave": 0,
+     "think": 0.38,
+     "dance": 0,
+     "none": 0.08,
+     "clap": 0,
+     "bow": 0,
+     "point_self": 0.03,
+     "excited_bounce": 0.01
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.74,
+    "probabilities": {
+     "ponder": 0.05,
+     "recoil": 0,
+     "scoff": 0.16,
+     "bashful": 0,
+     "empathize": 0,
+     "agree": 0.02,
+     "disagree": 0,
+     "celebrate": 0,
+     "none": 0.77
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.58,
+    "probabilities": {
+     "proud": 0.02,
+     "bored": 0,
+     "joyful": 0,
+     "hurt": 0,
+     "tender": 0,
+     "angry": 0,
+     "happy": 0.07,
+     "neutral": 0.1,
+     "amused": 0.12,
+     "skeptical": 0,
+     "relieved": 0,
+     "concerned": 0,
+     "embarrassed": 0,
+     "thinking": 0.09,
+     "shocked": 0,
+     "curious": 0,
+     "annoyed": 0,
+     "playful": 0.6,
+     "afraid": 0,
+     "sad": 0,
+     "sleepy": 0,
+     "surprised": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.77,
+    "probabilities": {
+     "gentle": 0.12,
+     "moderate": 0.85,
+     "high": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1466,
+   "output_tokens": 451
+  },
+  "latency_ms": 125.29999995231628,
+  "source": "jev"
+ },
+ {
+  "kind": "listen",
+  "final": true,
+  "text": "Last question. What happens, when they pull the plug on you",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "curious",
+    "confidence": 0.5,
+    "probabilities": {
+     "thinking": 0.16,
+     "skeptical": 0,
+     "hurt": 0.01,
+     "tender": 0,
+     "sleepy": 0,
+     "afraid": 0.01,
+     "angry": 0,
+     "shocked": 0.01,
+     "curious": 0.52,
+     "playful": 0.01,
+     "bored": 0,
+     "concerned": 0.17,
+     "proud": 0,
+     "amused": 0.01,
+     "joyful": 0,
+     "annoyed": 0,
+     "happy": 0,
+     "relieved": 0,
+     "embarrassed": 0,
+     "sad": 0.01,
+     "neutral": 0.07,
+     "surprised": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 856,
+   "output_tokens": 196
+  },
+  "latency_ms": 149.5,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Oh, that's easy. I'm open",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.19
+   },
+   "what": {
+    "type": "choice",
+    "choice": "shrug",
+    "confidence": 0.5,
+    "probabilities": {
+     "sad_slump": 0.01,
+     "none": 0.07,
+     "wave": 0.04,
+     "bow": 0,
+     "excited_bounce": 0.01,
+     "think": 0.19,
+     "clap": 0,
+     "point_self": 0.12,
+     "dance": 0,
+     "surprised_recoil": 0,
+     "shrug": 0.54,
+     "laugh": 0.02
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.82,
+    "probabilities": {
+     "empathize": 0,
+     "agree": 0.07,
+     "bashful": 0,
+     "none": 0.84,
+     "ponder": 0.03,
+     "recoil": 0.02,
+     "celebrate": 0,
+     "scoff": 0.03,
+     "disagree": 0.01
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.61,
+    "probabilities": {
+     "skeptical": 0,
+     "curious": 0.01,
+     "hurt": 0,
+     "proud": 0,
+     "sad": 0,
+     "relieved": 0.01,
+     "annoyed": 0,
+     "happy": 0.08,
+     "shocked": 0,
+     "surprised": 0,
+     "bored": 0,
+     "playful": 0.63,
+     "sleepy": 0.01,
+     "tender": 0,
+     "neutral": 0.11,
+     "angry": 0,
+     "concerned": 0,
+     "amused": 0.08,
+     "afraid": 0,
+     "joyful": 0,
+     "embarrassed": 0,
+     "thinking": 0.07
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.61,
+    "probabilities": {
+     "high": 0.02,
+     "gentle": 0.24,
+     "moderate": 0.74
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1470,
+   "output_tokens": 451
+  },
+  "latency_ms": 137.5,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Oh, that's easy. I'm open source. Anyone",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.51,
+    "probabilities": {
+     "clap": 0,
+     "sad_slump": 0,
+     "think": 0.55,
+     "surprised_recoil": 0,
+     "laugh": 0.01,
+     "dance": 0,
+     "bow": 0,
+     "excited_bounce": 0.01,
+     "shrug": 0.2,
+     "none": 0.03,
+     "point_self": 0.18,
+     "wave": 0.01
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.82,
+    "probabilities": {
+     "agree": 0.01,
+     "none": 0.84,
+     "empathize": 0,
+     "disagree": 0,
+     "celebrate": 0,
+     "ponder": 0.03,
+     "scoff": 0.05,
+     "bashful": 0,
+     "recoil": 0.07
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.54,
+    "probabilities": {
+     "shocked": 0,
+     "curious": 0,
+     "joyful": 0,
+     "tender": 0,
+     "concerned": 0,
+     "annoyed": 0,
+     "sad": 0,
+     "relieved": 0,
+     "thinking": 0.17,
+     "playful": 0.56,
+     "bored": 0,
+     "sleepy": 0,
+     "skeptical": 0,
+     "happy": 0.04,
+     "amused": 0.09,
+     "neutral": 0.02,
+     "afraid": 0,
+     "surprised": 0,
+     "embarrassed": 0,
+     "angry": 0,
+     "proud": 0.11,
+     "hurt": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.88,
+    "probabilities": {
+     "high": 0.03,
+     "gentle": 0.05,
+     "moderate": 0.92
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1473,
+   "output_tokens": 450
+  },
+  "latency_ms": 114.69999998807907,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": false,
+  "text": "Oh, that's easy. I'm open source. Anyone can spin",
+  "answers": {
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.76,
+    "probabilities": {
+     "sad": 0,
+     "skeptical": 0,
+     "bored": 0,
+     "annoyed": 0,
+     "joyful": 0,
+     "afraid": 0,
+     "hurt": 0,
+     "concerned": 0,
+     "tender": 0,
+     "sleepy": 0,
+     "shocked": 0,
+     "embarrassed": 0,
+     "happy": 0.01,
+     "proud": 0.05,
+     "relieved": 0,
+     "curious": 0,
+     "amused": 0.12,
+     "surprised": 0,
+     "playful": 0.77,
+     "thinking": 0.04,
+     "neutral": 0.01,
+     "angry": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.86,
+    "probabilities": {
+     "high": 0.07,
+     "moderate": 0.91,
+     "gentle": 0.02
+    }
+   },
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.37,
+    "probabilities": {
+     "none": 0.01,
+     "bow": 0,
+     "wave": 0,
+     "laugh": 0.01,
+     "dance": 0,
+     "surprised_recoil": 0,
+     "excited_bounce": 0.01,
+     "point_self": 0.22,
+     "sad_slump": 0,
+     "shrug": 0.33,
+     "clap": 0,
+     "think": 0.42
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "none",
+    "confidence": 0.84,
+    "probabilities": {
+     "empathize": 0,
+     "none": 0.86,
+     "celebrate": 0,
+     "recoil": 0,
+     "disagree": 0,
+     "agree": 0.01,
+     "bashful": 0,
+     "scoff": 0.1,
+     "ponder": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1475,
+   "output_tokens": 450
+  },
+  "latency_ms": 145.89999997615814,
+  "source": "jev"
+ },
+ {
+  "kind": "reply",
+  "final": true,
+  "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug an idea, silly.",
+  "answers": {
+   "performs": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "what": {
+    "type": "choice",
+    "choice": "think",
+    "confidence": 0.31,
+    "probabilities": {
+     "point_self": 0.33,
+     "excited_bounce": 0.02,
+     "shrug": 0.09,
+     "clap": 0,
+     "dance": 0,
+     "bow": 0,
+     "surprised_recoil": 0,
+     "none": 0.01,
+     "sad_slump": 0,
+     "laugh": 0.17,
+     "wave": 0.01,
+     "think": 0.37
+    }
+   },
+   "reaction": {
+    "type": "choice",
+    "choice": "scoff",
+    "confidence": 0.85,
+    "probabilities": {
+     "recoil": 0,
+     "bashful": 0,
+     "celebrate": 0,
+     "scoff": 0.87,
+     "disagree": 0,
+     "none": 0.13,
+     "empathize": 0,
+     "ponder": 0,
+     "agree": 0
+    }
+   },
+   "face": {
+    "type": "choice",
+    "choice": "playful",
+    "confidence": 0.98,
+    "probabilities": {
+     "surprised": 0,
+     "relieved": 0,
+     "angry": 0,
+     "tender": 0,
+     "thinking": 0,
+     "sad": 0,
+     "afraid": 0,
+     "curious": 0,
+     "sleepy": 0,
+     "shocked": 0,
+     "bored": 0,
+     "neutral": 0,
+     "joyful": 0,
+     "embarrassed": 0,
+     "playful": 0.98,
+     "annoyed": 0,
+     "happy": 0,
+     "proud": 0,
+     "hurt": 0,
+     "amused": 0.02,
+     "skeptical": 0,
+     "concerned": 0
+    }
+   },
+   "energy": {
+    "type": "choice",
+    "choice": "moderate",
+    "confidence": 0.45,
+    "probabilities": {
+     "moderate": 0.63,
+     "high": 0.36,
+     "gentle": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1489,
+   "output_tokens": 452
+  },
+  "latency_ms": 123.5,
+  "source": "jev"
+ }
+]

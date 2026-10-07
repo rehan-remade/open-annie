@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+demo/frames/
+demo/out/
+motion/ext/
+.pytest_cache/
+demo/live/annie.webm
+motion/raw/
+demo/events.json
+demo/timeline.json
+demo/decisions.json
+motion/meshy/

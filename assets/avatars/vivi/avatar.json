@@ -1,0 +1,137 @@
+{
+  "id": "vivi",
+  "name": "Vivi",
+  "file": "model.vrm",
+  "sha256": "eaf902e041a7a810f1423599ae75682f61184ab6ef0206da9a8ed9caa8ec3a9d",
+  "bytes": 18089136,
+  "source_url": "https://hub.vroid.com/en/characters/945152946522067123/models/1622417912888236740",
+  "source_mirror_url": "https://github.com/madjin/vrm-samples/raw/e16eb187100149a315ad92c3c9968f1d5baa6c7d/vroid/beta/Vivi.vrm",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_evidence": {
+    "pixiv_faq": "https://vroid.pixiv.help/hc/en-us/articles/4402614652569 lists AvatarSample_E (formerly 'Vivi' / 'beta Ver AvatarSample_2', renamed in VRoid Studio v0.14.0) under 'CC0 license models: copyright is waived'.",
+    "embedded_licenseName": "CC0",
+    "vroid_hub_license": {
+      "modification": "allow",
+      "redistribution": "allow",
+      "credit": "unnecessary",
+      "characterization_allowed_user": "everyone",
+      "corporate_commercial_use": "allow",
+      "personal_commercial_use": "profit"
+    },
+    "retrieved": "2026-09-27 via https://hub.vroid.com/api/character_models/1622417912888236740 (title 'ビビ', author 'VRoidプロジェクト')"
+  },
+  "author": "VRoid Project (pixiv Inc.)",
+  "vrm_version": "0.x",
+  "embedded_meta": {
+    "version": "",
+    "author": "",
+    "contactInformation": "",
+    "reference": "",
+    "title": "Vivi",
+    "texture": 27,
+    "allowedUserName": "Everyone",
+    "violentUssageName": "Allow",
+    "sexualUssageName": "Allow",
+    "commercialUssageName": "Allow",
+    "otherPermissionUrl": "",
+    "licenseName": "CC0",
+    "otherLicenseUrl": ""
+  },
+  "expressions": [
+    "aa",
+    "ih",
+    "ou",
+    "ee",
+    "oh",
+    "blink",
+    "blinkLeft",
+    "blinkRight",
+    "angry",
+    "relaxed",
+    "happy",
+    "sad",
+    "Surprised",
+    "Extra"
+  ],
+  "expressions_source": [
+    {
+      "name": "Neutral",
+      "presetName": "neutral",
+      "binds": 0
+    },
+    {
+      "name": "A",
+      "presetName": "a",
+      "binds": 1
+    },
+    {
+      "name": "I",
+      "presetName": "i",
+      "binds": 1
+    },
+    {
+      "name": "U",
+      "presetName": "u",
+      "binds": 1
+    },
+    {
+      "name": "E",
+      "presetName": "e",
+      "binds": 1
+    },
+    {
+      "name": "O",
+      "presetName": "o",
+      "binds": 1
+    },
+    {
+      "name": "Blink",
+      "presetName": "blink",
+      "binds": 1
+    },
+    {
+      "name": "Blink_L",
+      "presetName": "blink_l",
+      "binds": 1
+    },
+    {
+      "name": "Blink_R",
+      "presetName": "blink_r",
+      "binds": 1
+    },
+    {
+      "name": "Angry",
+      "presetName": "angry",
+      "binds": 1
+    },
+    {
+      "name": "Fun",
+      "presetName": "fun",
+      "binds": 1
+    },
+    {
+      "name": "Joy",
+      "presetName": "joy",
+      "binds": 1
+    },
+    {
+      "name": "Sorrow",
+      "presetName": "sorrow",
+      "binds": 1
+    },
+    {
+      "name": "Surprised",
+      "presetName": "unknown",
+      "binds": 1
+    },
+    {
+      "name": "Extra",
+      "presetName": "unknown",
+      "binds": 2
+    }
+  ],
+  "morph_targets_max_per_primitive": 41,
+  "triangle_count": 25834,
+  "notes": "pixiv's VRoid Studio beta sample 'Vivi' (= AvatarSample_E; exported by VRoidStudio-0.8.1, UniGLTF-1.24). Embedded VRM0 meta licenseName is 'CC0' and pixiv lists AvatarSample_E as CC0, so this is the cleanest-licensed avatar in the repo. Bytes from the madjin/vrm-samples mirror (VRoid Hub download requires login). VRM 0.x: A/I/U/E/O, Blink(_L/_R), Joy/Angry/Sorrow/Fun bound on 'Face.baked' (41 morph targets); 'Neutral' preset has no binds (harmless); no VRM0 'surprised' preset, use the custom expression 'Surprised' (morph 4). 'Extra' is a custom VRoid face."
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>open-annie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="stage.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/",
+    "@pixiv/three-vrm": "https://cdn.jsdelivr.net/npm/@pixiv/three-vrm@3.5.5/lib/three-vrm.module.min.js",
+    "@pixiv/three-vrm-animation": "https://cdn.jsdelivr.net/npm/@pixiv/three-vrm-animation@3.5.5/lib/three-vrm-animation.module.min.js"
+  }
+}
+</script>
+</head>
+<body>
+<div id="app">
+  <canvas id="scene"></canvas>
+
+  <header class="top">
+    <div class="brand"><span class="dot"></span>open-annie</div>
+  </header>
+
+  <aside class="convo">
+    <div class="msgs" id="msgs"></div>
+  </aside>
+
+  <div id="tags"></div>
+
+  <div class="bar" id="bar">
+    <canvas id="orb" width="112" height="112"></canvas>
+    <div class="bar-mid"><canvas id="wave"></canvas></div>
+  </div>
+
+
+  <div class="card-overlay" id="title-card">
+    <h1>open-annie</h1>
+  </div>
+  <div class="card-overlay" id="outro-card">
+    <h1>open-annie</h1>
+    <p id="outro-stats"></p>
+    <div class="cta"><span>Apache-2.0</span><span>GPT-Live-1 × Jev</span><span>Broker on fal serverless</span></div>
+  </div>
+
+  <button id="play" class="play">Play the demo</button>
+</div>
+<script type="module" src="stage.js"></script>
+</body>
+</html>

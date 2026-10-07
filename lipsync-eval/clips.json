@@ -1,0 +1,44 @@
+[
+ {
+  "id": "02_annie_blink",
+  "wav": "../demo/audio/02_annie_blink.wav",
+  "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that. Mysterious, right?",
+  "src": "kokoro"
+ },
+ {
+  "id": "04_annie_jev",
+  "wav": "../demo/audio/04_annie_jev.wav",
+  "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser. Freaky fun, right?",
+  "src": "kokoro"
+ },
+ {
+  "id": "06_annie_feelings",
+  "wav": "../demo/audio/06_annie_feelings.wav",
+  "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open source. Ehehe.",
+  "src": "kokoro"
+ },
+ {
+  "id": "08_annie_dance",
+  "wav": "../demo/audio/08_annie_dance.wav",
+  "text": "Yeeees! I wanna dance anyway. Ehehe. Watch this.",
+  "src": "kokoro"
+ },
+ {
+  "id": "10_annie_nope",
+  "wav": "../demo/audio/10_annie_nope.wav",
+  "text": "No backflips, sorry. Free will means I can say no too.",
+  "src": "kokoro"
+ },
+ {
+  "id": "12_annie_plug",
+  "wav": "../demo/audio/12_annie_plug.wav",
+  "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug an idea, silly.",
+  "src": "kokoro"
+ },
+ {
+  "id": "live",
+  "wav": "../demo/live/annie.wav",
+  "text": null,
+  "src": "gptlive"
+ }
+]

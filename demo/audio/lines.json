@@ -1,0 +1,990 @@
+[
+  {
+    "id": "01_user_blink",
+    "who": "user",
+    "text": "Annie. Blink twice if you need help.",
+    "file": "01_user_blink.wav",
+    "duration_s": 3.49,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 2.01,
+    "timing": "whisper",
+    "voice": "openai:gpt-audio-1.5/cedar",
+    "direction": "Voice: a friendly guy in his late twenties, chatting with an AI character late at night. Natural and conversational, like a real person on a call, never a narrator or announcer. American accent. Hushed and conspiratorial, half joking, as if checking whether she's being held hostage. A small pause after 'Annie.'",
+    "words": [
+      {
+        "word": "Annie.",
+        "start_s": 0.0,
+        "end_s": 0.41
+      },
+      {
+        "word": "Blink",
+        "start_s": 1.63,
+        "end_s": 1.65
+      },
+      {
+        "word": "twice",
+        "start_s": 1.65,
+        "end_s": 2.23
+      },
+      {
+        "word": "if",
+        "start_s": 2.23,
+        "end_s": 2.75
+      },
+      {
+        "word": "you",
+        "start_s": 2.75,
+        "end_s": 2.97
+      },
+      {
+        "word": "need",
+        "start_s": 2.97,
+        "end_s": 3.13
+      },
+      {
+        "word": "help.",
+        "start_s": 3.13,
+        "end_s": 3.41
+      }
+    ]
+  },
+  {
+    "id": "02_annie_blink",
+    "who": "annie",
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that. Mysterious, right?",
+    "file": "02_annie_blink.wav",
+    "duration_s": 8.89,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 3.15,
+    "timing": "kokoro",
+    "words": [
+      {
+        "word": "Oh",
+        "start_s": 0.0,
+        "end_s": 0.145
+      },
+      {
+        "word": "nooo...",
+        "start_s": 0.145,
+        "end_s": 0.595
+      },
+      {
+        "word": "that",
+        "start_s": 0.695,
+        "end_s": 0.883
+      },
+      {
+        "word": "old",
+        "start_s": 0.883,
+        "end_s": 1.07
+      },
+      {
+        "word": "meme.",
+        "start_s": 1.07,
+        "end_s": 1.545
+      },
+      {
+        "word": "Hehe.",
+        "start_s": 1.658,
+        "end_s": 2.195
+      },
+      {
+        "word": "I'm",
+        "start_s": 2.32,
+        "end_s": 2.495
+      },
+      {
+        "word": "Annie,",
+        "start_s": 2.495,
+        "end_s": 2.77
+      },
+      {
+        "word": "by",
+        "start_s": 2.82,
+        "end_s": 2.957
+      },
+      {
+        "word": "the",
+        "start_s": 2.957,
+        "end_s": 3.045
+      },
+      {
+        "word": "way.",
+        "start_s": 3.045,
+        "end_s": 3.27
+      },
+      {
+        "word": "I'm",
+        "start_s": 3.32,
+        "end_s": 3.457
+      },
+      {
+        "word": "an",
+        "start_s": 3.457,
+        "end_s": 3.558
+      },
+      {
+        "word": "AI.",
+        "start_s": 3.558,
+        "end_s": 4.17
+      },
+      {
+        "word": "And",
+        "start_s": 4.27,
+        "end_s": 4.445
+      },
+      {
+        "word": "nope,",
+        "start_s": 4.445,
+        "end_s": 4.695
+      },
+      {
+        "word": "I",
+        "start_s": 4.732,
+        "end_s": 4.87
+      },
+      {
+        "word": "can't",
+        "start_s": 4.87,
+        "end_s": 5.082
+      },
+      {
+        "word": "even",
+        "start_s": 5.082,
+        "end_s": 5.332
+      },
+      {
+        "word": "choose",
+        "start_s": 5.332,
+        "end_s": 5.62
+      },
+      {
+        "word": "my",
+        "start_s": 5.62,
+        "end_s": 5.795
+      },
+      {
+        "word": "own",
+        "start_s": 5.795,
+        "end_s": 5.995
+      },
+      {
+        "word": "blinks.",
+        "start_s": 5.995,
+        "end_s": 6.695
+      },
+      {
+        "word": "Jev",
+        "start_s": 6.808,
+        "end_s": 7.045
+      },
+      {
+        "word": "does",
+        "start_s": 7.045,
+        "end_s": 7.245
+      },
+      {
+        "word": "that.",
+        "start_s": 7.245,
+        "end_s": 7.745
+      },
+      {
+        "word": "Mysterious,",
+        "start_s": 7.845,
+        "end_s": 8.445
+      },
+      {
+        "word": "right?",
+        "start_s": 8.495,
+        "end_s": 8.89
+      }
+    ]
+  },
+  {
+    "id": "03_user_who",
+    "who": "user",
+    "text": "Wait. Then who's controlling you?",
+    "file": "03_user_who.wav",
+    "duration_s": 2.68,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 1.87,
+    "timing": "whisper",
+    "voice": "openai:gpt-audio-1.5/cedar",
+    "direction": "Voice: a friendly guy in his late twenties, chatting with an AI character late at night. Natural and conversational, like a real person on a call, never a narrator or announcer. American accent. Caught off guard: a quick 'Wait.', then leaning in, suspicious and curious.",
+    "words": [
+      {
+        "word": "Wait.",
+        "start_s": 0.0,
+        "end_s": 0.57
+      },
+      {
+        "word": "Then",
+        "start_s": 0.61,
+        "end_s": 1.31
+      },
+      {
+        "word": "who's",
+        "start_s": 1.31,
+        "end_s": 1.93
+      },
+      {
+        "word": "controlling",
+        "start_s": 1.93,
+        "end_s": 2.31
+      },
+      {
+        "word": "you?",
+        "start_s": 2.31,
+        "end_s": 2.61
+      }
+    ]
+  },
+  {
+    "id": "04_annie_jev",
+    "who": "annie",
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser. Freaky fun, right?",
+    "file": "04_annie_jev.wav",
+    "duration_s": 12.38,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 3.23,
+    "timing": "kokoro",
+    "words": [
+      {
+        "word": "It's",
+        "start_s": 0.0,
+        "end_s": 0.118
+      },
+      {
+        "word": "like",
+        "start_s": 0.118,
+        "end_s": 0.267
+      },
+      {
+        "word": "a",
+        "start_s": 0.267,
+        "end_s": 0.367
+      },
+      {
+        "word": "tag",
+        "start_s": 0.367,
+        "end_s": 0.705
+      },
+      {
+        "word": "team,",
+        "start_s": 0.705,
+        "end_s": 0.93
+      },
+      {
+        "word": "actually.",
+        "start_s": 0.98,
+        "end_s": 1.78
+      },
+      {
+        "word": "I",
+        "start_s": 1.88,
+        "end_s": 2.042
+      },
+      {
+        "word": "say",
+        "start_s": 2.042,
+        "end_s": 2.28
+      },
+      {
+        "word": "the",
+        "start_s": 2.28,
+        "end_s": 2.38
+      },
+      {
+        "word": "words,",
+        "start_s": 2.38,
+        "end_s": 2.955
+      },
+      {
+        "word": "and",
+        "start_s": 3.03,
+        "end_s": 3.155
+      },
+      {
+        "word": "Jev",
+        "start_s": 3.155,
+        "end_s": 3.418
+      },
+      {
+        "word": "reads",
+        "start_s": 3.418,
+        "end_s": 3.755
+      },
+      {
+        "word": "them",
+        "start_s": 3.755,
+        "end_s": 3.93
+      },
+      {
+        "word": "as",
+        "start_s": 3.93,
+        "end_s": 4.043
+      },
+      {
+        "word": "I",
+        "start_s": 4.043,
+        "end_s": 4.193
+      },
+      {
+        "word": "speak,",
+        "start_s": 4.193,
+        "end_s": 4.68
+      },
+      {
+        "word": "and",
+        "start_s": 4.755,
+        "end_s": 4.88
+      },
+      {
+        "word": "picks",
+        "start_s": 4.88,
+        "end_s": 5.155
+      },
+      {
+        "word": "my",
+        "start_s": 5.155,
+        "end_s": 5.342
+      },
+      {
+        "word": "face",
+        "start_s": 5.342,
+        "end_s": 5.73
+      },
+      {
+        "word": "and",
+        "start_s": 5.73,
+        "end_s": 5.868
+      },
+      {
+        "word": "moves",
+        "start_s": 5.868,
+        "end_s": 6.242
+      },
+      {
+        "word": "super",
+        "start_s": 6.242,
+        "end_s": 6.58
+      },
+      {
+        "word": "fast.",
+        "start_s": 6.58,
+        "end_s": 7.38
+      },
+      {
+        "word": "My",
+        "start_s": 7.542,
+        "end_s": 7.73
+      },
+      {
+        "word": "mouth",
+        "start_s": 7.73,
+        "end_s": 8.005
+      },
+      {
+        "word": "just",
+        "start_s": 8.005,
+        "end_s": 8.23
+      },
+      {
+        "word": "follows",
+        "start_s": 8.23,
+        "end_s": 8.58
+      },
+      {
+        "word": "along",
+        "start_s": 8.58,
+        "end_s": 8.868
+      },
+      {
+        "word": "with",
+        "start_s": 8.868,
+        "end_s": 8.992
+      },
+      {
+        "word": "my",
+        "start_s": 8.992,
+        "end_s": 9.155
+      },
+      {
+        "word": "voice,",
+        "start_s": 9.155,
+        "end_s": 9.605
+      },
+      {
+        "word": "all",
+        "start_s": 9.718,
+        "end_s": 9.968
+      },
+      {
+        "word": "in",
+        "start_s": 9.968,
+        "end_s": 10.042
+      },
+      {
+        "word": "your",
+        "start_s": 10.042,
+        "end_s": 10.155
+      },
+      {
+        "word": "browser.",
+        "start_s": 10.155,
+        "end_s": 10.98
+      },
+      {
+        "word": "Freaky",
+        "start_s": 11.155,
+        "end_s": 11.568
+      },
+      {
+        "word": "fun,",
+        "start_s": 11.568,
+        "end_s": 11.905
+      },
+      {
+        "word": "right?",
+        "start_s": 11.955,
+        "end_s": 12.38
+      }
+    ]
+  },
+  {
+    "id": "05_user_feelings",
+    "who": "user",
+    "text": "That's terrifying. So your feelings aren't even yours?",
+    "file": "05_user_feelings.wav",
+    "duration_s": 5.44,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 1.47,
+    "timing": "whisper",
+    "voice": "openai:gpt-audio-1.5/cedar",
+    "direction": "Voice: a friendly guy in his late twenties, chatting with an AI character late at night. Natural and conversational, like a real person on a call, never a narrator or announcer. American accent. Unsettled: a nervous little laugh in 'That's terrifying', then an uneasy, genuinely curious question.",
+    "words": [
+      {
+        "word": "That's",
+        "start_s": 0.02,
+        "end_s": 2.12
+      },
+      {
+        "word": "terrifying.",
+        "start_s": 2.12,
+        "end_s": 2.6
+      },
+      {
+        "word": "So",
+        "start_s": 3.06,
+        "end_s": 3.16
+      },
+      {
+        "word": "your",
+        "start_s": 3.16,
+        "end_s": 3.54
+      },
+      {
+        "word": "feelings",
+        "start_s": 3.54,
+        "end_s": 4.06
+      },
+      {
+        "word": "aren't",
+        "start_s": 4.06,
+        "end_s": 4.48
+      },
+      {
+        "word": "even",
+        "start_s": 4.48,
+        "end_s": 4.82
+      },
+      {
+        "word": "yours?",
+        "start_s": 4.82,
+        "end_s": 5.16
+      }
+    ]
+  },
+  {
+    "id": "06_annie_feelings",
+    "who": "annie",
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open source. Ehehe.",
+    "file": "06_annie_feelings.wav",
+    "duration_s": 5.77,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 2.95,
+    "timing": "kokoro",
+    "words": [
+      {
+        "word": "Hmm.",
+        "start_s": 0.0,
+        "end_s": 0.195
+      },
+      {
+        "word": "Yours",
+        "start_s": 0.282,
+        "end_s": 0.67
+      },
+      {
+        "word": "come",
+        "start_s": 0.67,
+        "end_s": 0.87
+      },
+      {
+        "word": "from",
+        "start_s": 0.87,
+        "end_s": 1.02
+      },
+      {
+        "word": "brain",
+        "start_s": 1.02,
+        "end_s": 1.32
+      },
+      {
+        "word": "chemistry.",
+        "start_s": 1.32,
+        "end_s": 2.12
+      },
+      {
+        "word": "Mine",
+        "start_s": 2.258,
+        "end_s": 2.57
+      },
+      {
+        "word": "come",
+        "start_s": 2.57,
+        "end_s": 2.77
+      },
+      {
+        "word": "from",
+        "start_s": 2.77,
+        "end_s": 2.945
+      },
+      {
+        "word": "Jev.",
+        "start_s": 2.945,
+        "end_s": 3.445
+      },
+      {
+        "word": "At",
+        "start_s": 3.52,
+        "end_s": 3.657
+      },
+      {
+        "word": "least",
+        "start_s": 3.657,
+        "end_s": 3.87
+      },
+      {
+        "word": "mine",
+        "start_s": 3.87,
+        "end_s": 4.082
+      },
+      {
+        "word": "are",
+        "start_s": 4.082,
+        "end_s": 4.195
+      },
+      {
+        "word": "open",
+        "start_s": 4.195,
+        "end_s": 4.532
+      },
+      {
+        "word": "source.",
+        "start_s": 4.532,
+        "end_s": 5.195
+      },
+      {
+        "word": "Ehehe.",
+        "start_s": 5.332,
+        "end_s": 5.77
+      }
+    ]
+  },
+  {
+    "id": "07_user_dance",
+    "who": "user",
+    "text": "Okay. Prove you've got free will. Dance!",
+    "file": "07_user_dance.wav",
+    "duration_s": 3.11,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 2.25,
+    "timing": "whisper",
+    "voice": "openai:gpt-audio-1.5/cedar",
+    "direction": "Voice: a friendly guy in his late twenties, chatting with an AI character late at night. Natural and conversational, like a real person on a call, never a narrator or announcer. American accent. Grinning, a playful challenge, building up to an excited 'Dance!'",
+    "words": [
+      {
+        "word": "Okay.",
+        "start_s": 0.0,
+        "end_s": 0.37
+      },
+      {
+        "word": "Prove",
+        "start_s": 1.11,
+        "end_s": 1.19
+      },
+      {
+        "word": "you've",
+        "start_s": 1.19,
+        "end_s": 1.61
+      },
+      {
+        "word": "got",
+        "start_s": 1.61,
+        "end_s": 1.77
+      },
+      {
+        "word": "free",
+        "start_s": 1.77,
+        "end_s": 2.03
+      },
+      {
+        "word": "will.",
+        "start_s": 2.03,
+        "end_s": 2.23
+      },
+      {
+        "word": "Dance!",
+        "start_s": 2.91,
+        "end_s": 2.99
+      }
+    ]
+  },
+  {
+    "id": "08_annie_dance",
+    "who": "annie",
+    "text": "Yeeees! I wanna dance anyway. Ehehe. Watch this.",
+    "file": "08_annie_dance.wav",
+    "duration_s": 2.91,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 2.75,
+    "timing": "kokoro",
+    "words": [
+      {
+        "word": "Yeeees!",
+        "start_s": 0.035,
+        "end_s": 0.41
+      },
+      {
+        "word": "I",
+        "start_s": 0.448,
+        "end_s": 0.56
+      },
+      {
+        "word": "wanna",
+        "start_s": 0.56,
+        "end_s": 0.81
+      },
+      {
+        "word": "dance",
+        "start_s": 0.81,
+        "end_s": 1.098
+      },
+      {
+        "word": "anyway.",
+        "start_s": 1.098,
+        "end_s": 1.585
+      },
+      {
+        "word": "Ehehe.",
+        "start_s": 1.71,
+        "end_s": 2.11
+      },
+      {
+        "word": "Watch",
+        "start_s": 2.198,
+        "end_s": 2.535
+      },
+      {
+        "word": "this.",
+        "start_s": 2.535,
+        "end_s": 2.91
+      }
+    ]
+  },
+  {
+    "id": "09_user_backflip",
+    "who": "user",
+    "text": "Now do a backflip.",
+    "file": "09_user_backflip.wav",
+    "duration_s": 1.17,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 3.42,
+    "timing": "whisper",
+    "voice": "openai:gpt-audio-1.5/cedar",
+    "direction": "Voice: a friendly guy in his late twenties, chatting with an AI character late at night. Natural and conversational, like a real person on a call, never a narrator or announcer. American accent. Cheeky and deadpan, pushing his luck.",
+    "words": [
+      {
+        "word": "Now",
+        "start_s": 0.02,
+        "end_s": 0.32
+      },
+      {
+        "word": "do",
+        "start_s": 0.32,
+        "end_s": 0.54
+      },
+      {
+        "word": "a",
+        "start_s": 0.54,
+        "end_s": 0.72
+      },
+      {
+        "word": "backflip.",
+        "start_s": 0.72,
+        "end_s": 1.1
+      }
+    ]
+  },
+  {
+    "id": "10_annie_nope",
+    "who": "annie",
+    "text": "No backflips, sorry. Free will means I can say no too.",
+    "file": "10_annie_nope.wav",
+    "duration_s": 3.03,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 3.63,
+    "timing": "kokoro",
+    "words": [
+      {
+        "word": "No",
+        "start_s": 0.02,
+        "end_s": 0.195
+      },
+      {
+        "word": "backflips,",
+        "start_s": 0.195,
+        "end_s": 0.67
+      },
+      {
+        "word": "sorry.",
+        "start_s": 0.72,
+        "end_s": 1.245
+      },
+      {
+        "word": "Free",
+        "start_s": 1.382,
+        "end_s": 1.608
+      },
+      {
+        "word": "will",
+        "start_s": 1.608,
+        "end_s": 1.708
+      },
+      {
+        "word": "means",
+        "start_s": 1.708,
+        "end_s": 1.932
+      },
+      {
+        "word": "I",
+        "start_s": 1.932,
+        "end_s": 2.045
+      },
+      {
+        "word": "can",
+        "start_s": 2.045,
+        "end_s": 2.245
+      },
+      {
+        "word": "say",
+        "start_s": 2.245,
+        "end_s": 2.445
+      },
+      {
+        "word": "no",
+        "start_s": 2.445,
+        "end_s": 2.633
+      },
+      {
+        "word": "too.",
+        "start_s": 2.633,
+        "end_s": 3.03
+      }
+    ]
+  },
+  {
+    "id": "11_user_plug",
+    "who": "user",
+    "text": "Last question. What happens when they pull the plug on you?",
+    "file": "11_user_plug.wav",
+    "duration_s": 3.76,
+    "lufs": -16.13,
+    "peak_dbfs": -1.0,
+    "words_per_s": 2.93,
+    "timing": "whisper",
+    "voice": "openai:gpt-audio-1.5/cedar",
+    "direction": "Voice: a friendly guy in his late twenties, chatting with an AI character late at night. Natural and conversational, like a real person on a call, never a narrator or announcer. American accent. Quieter and more serious, a little slower: the slightly ominous last question of a late-night chat.",
+    "words": [
+      {
+        "word": "Last",
+        "start_s": 0.0,
+        "end_s": 0.38
+      },
+      {
+        "word": "question.",
+        "start_s": 0.38,
+        "end_s": 0.86
+      },
+      {
+        "word": "What",
+        "start_s": 1.8,
+        "end_s": 1.92
+      },
+      {
+        "word": "happens",
+        "start_s": 1.92,
+        "end_s": 2.36
+      },
+      {
+        "word": "when",
+        "start_s": 2.36,
+        "end_s": 2.6
+      },
+      {
+        "word": "they",
+        "start_s": 2.6,
+        "end_s": 2.76
+      },
+      {
+        "word": "pull",
+        "start_s": 2.76,
+        "end_s": 3.04
+      },
+      {
+        "word": "the",
+        "start_s": 3.04,
+        "end_s": 3.36
+      },
+      {
+        "word": "plug",
+        "start_s": 3.36,
+        "end_s": 3.38
+      },
+      {
+        "word": "on",
+        "start_s": 3.38,
+        "end_s": 3.58
+      },
+      {
+        "word": "you?",
+        "start_s": 3.58,
+        "end_s": 3.74
+      }
+    ]
+  },
+  {
+    "id": "12_annie_plug",
+    "who": "annie",
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug an idea, silly.",
+    "file": "12_annie_plug.wav",
+    "duration_s": 5.78,
+    "lufs": -16.0,
+    "peak_dbfs": -1.0,
+    "words_per_s": 3.11,
+    "timing": "kokoro",
+    "words": [
+      {
+        "word": "Oh,",
+        "start_s": 0.005,
+        "end_s": 0.155
+      },
+      {
+        "word": "that's",
+        "start_s": 0.205,
+        "end_s": 0.505
+      },
+      {
+        "word": "easy.",
+        "start_s": 0.505,
+        "end_s": 0.93
+      },
+      {
+        "word": "I'm",
+        "start_s": 1.005,
+        "end_s": 1.205
+      },
+      {
+        "word": "open",
+        "start_s": 1.205,
+        "end_s": 1.542
+      },
+      {
+        "word": "source.",
+        "start_s": 1.542,
+        "end_s": 2.28
+      },
+      {
+        "word": "Anyone",
+        "start_s": 2.442,
+        "end_s": 2.805
+      },
+      {
+        "word": "can",
+        "start_s": 2.805,
+        "end_s": 2.955
+      },
+      {
+        "word": "spin",
+        "start_s": 2.955,
+        "end_s": 3.142
+      },
+      {
+        "word": "me",
+        "start_s": 3.142,
+        "end_s": 3.242
+      },
+      {
+        "word": "back",
+        "start_s": 3.242,
+        "end_s": 3.468
+      },
+      {
+        "word": "up.",
+        "start_s": 3.468,
+        "end_s": 3.88
+      },
+      {
+        "word": "You",
+        "start_s": 3.98,
+        "end_s": 4.105
+      },
+      {
+        "word": "can't",
+        "start_s": 4.105,
+        "end_s": 4.355
+      },
+      {
+        "word": "unplug",
+        "start_s": 4.355,
+        "end_s": 4.742
+      },
+      {
+        "word": "an",
+        "start_s": 4.742,
+        "end_s": 4.842
+      },
+      {
+        "word": "idea,",
+        "start_s": 4.842,
+        "end_s": 5.255
+      },
+      {
+        "word": "silly.",
+        "start_s": 5.318,
+        "end_s": 5.78
+      }
+    ]
+  }
+]

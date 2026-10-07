@@ -1,0 +1,1611 @@
+{
+ "duration": 97.05250000000001,
+ "voice": "willow",
+ "audio": {
+  "file": "demo/live/annie.wav",
+  "start": 1.563899999976158
+ },
+ "bus": [
+  {
+   "t": 4.431800000011921,
+   "type": "user.partial",
+   "detail": {
+    "text": "Annie"
+   }
+  },
+  {
+   "t": 5.634399999976158,
+   "type": "user.partial",
+   "detail": {
+    "text": "Annie. Blink"
+   }
+  },
+  {
+   "t": 6.249999999999999,
+   "type": "user.partial",
+   "detail": {
+    "text": "Annie. Blink twice"
+   }
+  },
+  {
+   "t": 6.667100000023841,
+   "type": "user.partial",
+   "detail": {
+    "text": "Annie. Blink twice, if"
+   }
+  },
+  {
+   "t": 6.905699999988079,
+   "type": "user.partial",
+   "detail": {
+    "text": "Annie. Blink twice, if you"
+   }
+  },
+  {
+   "t": 7.040199999988078,
+   "type": "user.partial",
+   "detail": {
+    "text": "Annie. Blink twice, if you need"
+   }
+  },
+  {
+   "t": 7.632300000011921,
+   "type": "user.partial",
+   "detail": {
+    "text": "Annie. Blink twice, if you need help"
+   }
+  },
+  {
+   "t": 7.6346999999880785,
+   "type": "assistant.audio.start",
+   "detail": {}
+  },
+  {
+   "t": 7.635000000000001,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh no"
+   }
+  },
+  {
+   "t": 7.793399999976159,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo"
+   }
+  },
+  {
+   "t": 8.203100000023841,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo..."
+   }
+  },
+  {
+   "t": 8.745600000023842,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that"
+   }
+  },
+  {
+   "t": 8.955600000023843,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old"
+   }
+  },
+  {
+   "t": 9.135899999976157,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme."
+   }
+  },
+  {
+   "t": 9.148699999988079,
+   "type": "user.final",
+   "detail": {
+    "text": "Annie. Blink twice, if you need help"
+   }
+  },
+  {
+   "t": 9.951999999999998,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe"
+   }
+  },
+  {
+   "t": 10.138199999988078,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe."
+   }
+  },
+  {
+   "t": 10.740899999976158,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm"
+   }
+  },
+  {
+   "t": 11.139,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie,"
+   }
+  },
+  {
+   "t": 11.550899999976156,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by"
+   }
+  },
+  {
+   "t": 11.74610000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the"
+   }
+  },
+  {
+   "t": 11.94610000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way."
+   }
+  },
+  {
+   "t": 12.164399999976158,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm"
+   }
+  },
+  {
+   "t": 12.351300000011921,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an"
+   }
+  },
+  {
+   "t": 12.5455,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI."
+   }
+  },
+  {
+   "t": 13.52880000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And"
+   }
+  },
+  {
+   "t": 13.935399999976156,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope,"
+   }
+  },
+  {
+   "t": 14.372100000023842,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I"
+   }
+  },
+  {
+   "t": 14.5215,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't"
+   }
+  },
+  {
+   "t": 14.962300000011918,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even"
+   }
+  },
+  {
+   "t": 15.154499999999999,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose"
+   }
+  },
+  {
+   "t": 15.359899999976157,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my"
+   }
+  },
+  {
+   "t": 15.536199999988078,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own"
+   }
+  },
+  {
+   "t": 15.728600000023842,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks"
+   }
+  },
+  {
+   "t": 15.94180000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks."
+   }
+  },
+  {
+   "t": 16.53830000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev"
+   }
+  },
+  {
+   "t": 16.94410000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does"
+   }
+  },
+  {
+   "t": 17.124,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that."
+   }
+  },
+  {
+   "t": 17.954800000011918,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that. Myster"
+   }
+  },
+  {
+   "t": 18.132100000023843,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that. Mysterious,"
+   }
+  },
+  {
+   "t": 18.719699999988077,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that. Mysterious, right?"
+   }
+  },
+  {
+   "t": 21.50060000002384,
+   "type": "assistant.final",
+   "detail": {
+    "text": "Oh nooo... that old meme. Hehe. I'm Annie, by the way. I'm an AI. And nope, I can't even choose my own blinks. Jev does that. Mysterious, right?"
+   }
+  },
+  {
+   "t": 21.50060000002384,
+   "type": "assistant.audio.end",
+   "detail": {}
+  },
+  {
+   "t": 23.24119999998808,
+   "type": "user.partial",
+   "detail": {
+    "text": "Wait"
+   }
+  },
+  {
+   "t": 24.00319999998808,
+   "type": "user.partial",
+   "detail": {
+    "text": "Wait. Then"
+   }
+  },
+  {
+   "t": 24.537499999999998,
+   "type": "user.partial",
+   "detail": {
+    "text": "Wait. Then, who's"
+   }
+  },
+  {
+   "t": 25.271300000011923,
+   "type": "user.partial",
+   "detail": {
+    "text": "Wait. Then, who's controlling"
+   }
+  },
+  {
+   "t": 25.45710000002384,
+   "type": "user.partial",
+   "detail": {
+    "text": "Wait. Then, who's controlling you"
+   }
+  },
+  {
+   "t": 25.45719999998808,
+   "type": "assistant.audio.start",
+   "detail": {}
+  },
+  {
+   "t": 25.45719999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like"
+   }
+  },
+  {
+   "t": 25.63610000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag"
+   }
+  },
+  {
+   "t": 26.057600000023843,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team,"
+   }
+  },
+  {
+   "t": 26.23230000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually."
+   }
+  },
+  {
+   "t": 26.97219999998808,
+   "type": "user.final",
+   "detail": {
+    "text": "Wait. Then, who's controlling you"
+   }
+  },
+  {
+   "t": 27.035199999988077,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I"
+   }
+  },
+  {
+   "t": 27.44819999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say"
+   }
+  },
+  {
+   "t": 27.633199999988083,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the"
+   }
+  },
+  {
+   "t": 27.823800000011925,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words,"
+   }
+  },
+  {
+   "t": 28.448699999988076,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and"
+   }
+  },
+  {
+   "t": 28.642199999988076,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev"
+   }
+  },
+  {
+   "t": 28.84710000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads"
+   }
+  },
+  {
+   "t": 29.295199999988075,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them"
+   }
+  },
+  {
+   "t": 29.53089999997616,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as"
+   }
+  },
+  {
+   "t": 30.374199999988075,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I"
+   }
+  },
+  {
+   "t": 30.374199999988075,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak,"
+   }
+  },
+  {
+   "t": 30.374199999988075,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and"
+   }
+  },
+  {
+   "t": 30.45369999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks"
+   }
+  },
+  {
+   "t": 30.6065,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my"
+   }
+  },
+  {
+   "t": 30.740600000023843,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face"
+   }
+  },
+  {
+   "t": 30.87219999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and"
+   }
+  },
+  {
+   "t": 31.067800000011918,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves"
+   }
+  },
+  {
+   "t": 31.47469999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super"
+   }
+  },
+  {
+   "t": 32.28480000001191,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast."
+   }
+  },
+  {
+   "t": 33.364199999988074,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My"
+   }
+  },
+  {
+   "t": 33.52719999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth"
+   }
+  },
+  {
+   "t": 33.95280000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just"
+   }
+  },
+  {
+   "t": 34.0975,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows"
+   }
+  },
+  {
+   "t": 34.48,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along"
+   }
+  },
+  {
+   "t": 34.927499999999995,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with"
+   }
+  },
+  {
+   "t": 35.1245,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my"
+   }
+  },
+  {
+   "t": 35.298699999988074,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice,"
+   }
+  },
+  {
+   "t": 35.907600000023834,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all"
+   }
+  },
+  {
+   "t": 36.10369999998807,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in"
+   }
+  },
+  {
+   "t": 36.321899999976154,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser"
+   }
+  },
+  {
+   "t": 36.495300000011916,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser."
+   }
+  },
+  {
+   "t": 37.099,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser. Freaky"
+   }
+  },
+  {
+   "t": 37.68860000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser. Freaky fun,"
+   }
+  },
+  {
+   "t": 38.127800000011916,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser. Freaky fun, right?"
+   }
+  },
+  {
+   "t": 40.892300000011915,
+   "type": "assistant.final",
+   "detail": {
+    "text": "It's like a tag team, actually. I say the words, and Jev reads them as I speak, and picks my face and moves super fast. My mouth just follows along with my voice, all in your browser. Freaky fun, right?"
+   }
+  },
+  {
+   "t": 40.892300000011915,
+   "type": "assistant.audio.end",
+   "detail": {}
+  },
+  {
+   "t": 42.771399999976154,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's"
+   }
+  },
+  {
+   "t": 43.829899999976156,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle"
+   }
+  },
+  {
+   "t": 44.00110000002384,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's"
+   }
+  },
+  {
+   "t": 44.21169999998808,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th"
+   }
+  },
+  {
+   "t": 44.37049999999999,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's"
+   }
+  },
+  {
+   "t": 44.964999999999996,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying"
+   }
+  },
+  {
+   "t": 45.394499999999994,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying. So are"
+   }
+  },
+  {
+   "t": 45.611699999988076,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying. So are y"
+   }
+  },
+  {
+   "t": 45.75169999998808,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your"
+   }
+  },
+  {
+   "t": 46.400999999999996,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your feelings"
+   }
+  },
+  {
+   "t": 46.616800000011914,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your feelings aren't"
+   }
+  },
+  {
+   "t": 46.98389999997615,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your feelings aren't even"
+   }
+  },
+  {
+   "t": 47.49210000002384,
+   "type": "user.partial",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your feelings aren't even yours"
+   }
+  },
+  {
+   "t": 47.66610000002384,
+   "type": "assistant.audio.start",
+   "detail": {}
+  },
+  {
+   "t": 47.66610000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm."
+   }
+  },
+  {
+   "t": 48.67619999998807,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours"
+   }
+  },
+  {
+   "t": 48.863199999988076,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come"
+   }
+  },
+  {
+   "t": 49.004300000011916,
+   "type": "user.final",
+   "detail": {
+    "text": "That's [chuckle ]that's- th- that's terrifying. So are y- your feelings aren't even yours"
+   }
+  },
+  {
+   "t": 49.280499999999996,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from"
+   }
+  },
+  {
+   "t": 49.52080000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain"
+   }
+  },
+  {
+   "t": 49.887899999976156,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry."
+   }
+  },
+  {
+   "t": 50.88419999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine"
+   }
+  },
+  {
+   "t": 51.48389999997615,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come"
+   }
+  },
+  {
+   "t": 51.67030000001191,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from"
+   }
+  },
+  {
+   "t": 51.873,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev"
+   }
+  },
+  {
+   "t": 52.055499999999995,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev."
+   }
+  },
+  {
+   "t": 52.4695,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At"
+   }
+  },
+  {
+   "t": 52.658399999976155,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least"
+   }
+  },
+  {
+   "t": 53.13010000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine"
+   }
+  },
+  {
+   "t": 53.54489999997615,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are"
+   }
+  },
+  {
+   "t": 53.733699999988076,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open"
+   }
+  },
+  {
+   "t": 53.890100000023835,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open source"
+   }
+  },
+  {
+   "t": 54.51519999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open source ehehe"
+   }
+  },
+  {
+   "t": 54.681199999988074,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open source ehehe."
+   }
+  },
+  {
+   "t": 57.18030000001192,
+   "type": "assistant.final",
+   "detail": {
+    "text": "Hmm. Yours come from brain chemistry. Mine come from Jev. At least mine are open source ehehe."
+   }
+  },
+  {
+   "t": 57.18030000001192,
+   "type": "assistant.audio.end",
+   "detail": {}
+  },
+  {
+   "t": 58.964999999999996,
+   "type": "user.partial",
+   "detail": {
+    "text": "Okay"
+   }
+  },
+  {
+   "t": 59.79639999997615,
+   "type": "user.partial",
+   "detail": {
+    "text": "Okay, prove"
+   }
+  },
+  {
+   "t": 60.02310000002384,
+   "type": "user.partial",
+   "detail": {
+    "text": "Okay, prove you've"
+   }
+  },
+  {
+   "t": 60.19489999997615,
+   "type": "user.partial",
+   "detail": {
+    "text": "Okay, prove you've got"
+   }
+  },
+  {
+   "t": 60.38630000001192,
+   "type": "user.partial",
+   "detail": {
+    "text": "Okay, prove you've got free"
+   }
+  },
+  {
+   "t": 60.76160000002384,
+   "type": "user.partial",
+   "detail": {
+    "text": "Okay, prove you've got free will"
+   }
+  },
+  {
+   "t": 61.69669999998808,
+   "type": "user.partial",
+   "detail": {
+    "text": "Okay, prove you've got free will. Dance"
+   }
+  },
+  {
+   "t": 61.88910000002384,
+   "type": "assistant.audio.start",
+   "detail": {}
+  },
+  {
+   "t": 61.88919999998807,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees"
+   }
+  },
+  {
+   "t": 62.08010000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees!"
+   }
+  },
+  {
+   "t": 62.6835,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees! I"
+   }
+  },
+  {
+   "t": 63.06460000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees! I wanna"
+   }
+  },
+  {
+   "t": 63.212300000011915,
+   "type": "user.final",
+   "detail": {
+    "text": "Okay, prove you've got free will. Dance"
+   }
+  },
+  {
+   "t": 63.49080000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees! I wanna dance"
+   }
+  },
+  {
+   "t": 63.67139999997615,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees! I wanna dance anyway"
+   }
+  },
+  {
+   "t": 64.50160000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees! I wanna dance anyway ehehe"
+   }
+  },
+  {
+   "t": 64.6825,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees! I wanna dance anyway ehehe."
+   }
+  },
+  {
+   "t": 65.65960000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees! I wanna dance anyway ehehe. Watch"
+   }
+  },
+  {
+   "t": 66.0855,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Yeeees! I wanna dance anyway ehehe. Watch this."
+   }
+  },
+  {
+   "t": 68.60419999998808,
+   "type": "assistant.final",
+   "detail": {
+    "text": "Yeeees! I wanna dance anyway ehehe. Watch this."
+   }
+  },
+  {
+   "t": 68.60419999998808,
+   "type": "assistant.audio.end",
+   "detail": {}
+  },
+  {
+   "t": 72.0425,
+   "type": "user.partial",
+   "detail": {
+    "text": "Now"
+   }
+  },
+  {
+   "t": 72.203,
+   "type": "user.partial",
+   "detail": {
+    "text": "Now, do a"
+   }
+  },
+  {
+   "t": 72.36969999998809,
+   "type": "user.partial",
+   "detail": {
+    "text": "Now, do a back"
+   }
+  },
+  {
+   "t": 72.89910000002385,
+   "type": "user.partial",
+   "detail": {
+    "text": "Now, do a backflip"
+   }
+  },
+  {
+   "t": 72.90139999997616,
+   "type": "assistant.audio.start",
+   "detail": {}
+  },
+  {
+   "t": 72.90139999997616,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No back"
+   }
+  },
+  {
+   "t": 73.09019999998809,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips"
+   }
+  },
+  {
+   "t": 73.2895,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips,"
+   }
+  },
+  {
+   "t": 73.47880000001193,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips, sorry."
+   }
+  },
+  {
+   "t": 74.1165,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips, sorry. Free"
+   }
+  },
+  {
+   "t": 74.41260000002384,
+   "type": "user.final",
+   "detail": {
+    "text": "Now, do a backflip"
+   }
+  },
+  {
+   "t": 74.49939999997616,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips, sorry. Free will"
+   }
+  },
+  {
+   "t": 74.67139999997616,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips, sorry. Free will means"
+   }
+  },
+  {
+   "t": 75.081,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips, sorry. Free will means I"
+   }
+  },
+  {
+   "t": 75.30260000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips, sorry. Free will means I can say"
+   }
+  },
+  {
+   "t": 75.50280000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips, sorry. Free will means I can say no"
+   }
+  },
+  {
+   "t": 75.68969999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "No backflips, sorry. Free will means I can say no too."
+   }
+  },
+  {
+   "t": 78.34830000001192,
+   "type": "assistant.final",
+   "detail": {
+    "text": "No backflips, sorry. Free will means I can say no too."
+   }
+  },
+  {
+   "t": 78.34830000001192,
+   "type": "assistant.audio.end",
+   "detail": {}
+  },
+  {
+   "t": 80.17580000001192,
+   "type": "user.partial",
+   "detail": {
+    "text": "Last"
+   }
+  },
+  {
+   "t": 80.55480000001192,
+   "type": "user.partial",
+   "detail": {
+    "text": "Last question"
+   }
+  },
+  {
+   "t": 81.56819999998808,
+   "type": "user.partial",
+   "detail": {
+    "text": "Last question. What"
+   }
+  },
+  {
+   "t": 82.24330000001193,
+   "type": "user.partial",
+   "detail": {
+    "text": "Last question. What happens"
+   }
+  },
+  {
+   "t": 82.37669999998808,
+   "type": "user.partial",
+   "detail": {
+    "text": "Last question. What happens, when they"
+   }
+  },
+  {
+   "t": 82.7705,
+   "type": "user.partial",
+   "detail": {
+    "text": "Last question. What happens, when they pull the"
+   }
+  },
+  {
+   "t": 83.20030000001192,
+   "type": "user.partial",
+   "detail": {
+    "text": "Last question. What happens, when they pull the plug on"
+   }
+  },
+  {
+   "t": 83.49160000002385,
+   "type": "user.partial",
+   "detail": {
+    "text": "Last question. What happens, when they pull the plug on you"
+   }
+  },
+  {
+   "t": 83.68430000001193,
+   "type": "assistant.audio.start",
+   "detail": {}
+  },
+  {
+   "t": 83.68430000001193,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh,"
+   }
+  },
+  {
+   "t": 83.87239999997617,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's"
+   }
+  },
+  {
+   "t": 84.26650000000001,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy."
+   }
+  },
+  {
+   "t": 84.86619999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm"
+   }
+  },
+  {
+   "t": 85.00419999998809,
+   "type": "user.final",
+   "detail": {
+    "text": "Last question. What happens, when they pull the plug on you"
+   }
+  },
+  {
+   "t": 85.47310000002385,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open"
+   }
+  },
+  {
+   "t": 85.87569999998809,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source."
+   }
+  },
+  {
+   "t": 86.48030000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone"
+   }
+  },
+  {
+   "t": 87.1065,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can"
+   }
+  },
+  {
+   "t": 87.29530000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin"
+   }
+  },
+  {
+   "t": 87.6885,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back"
+   }
+  },
+  {
+   "t": 88.09030000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up."
+   }
+  },
+  {
+   "t": 88.25469999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You"
+   }
+  },
+  {
+   "t": 88.6875,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't"
+   }
+  },
+  {
+   "t": 89.09160000002385,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug"
+   }
+  },
+  {
+   "t": 89.88119999998808,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug an"
+   }
+  },
+  {
+   "t": 90.06980000001192,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug an idea,"
+   }
+  },
+  {
+   "t": 90.48010000002384,
+   "type": "assistant.partial",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug an idea, silly."
+   }
+  },
+  {
+   "t": 93.2445,
+   "type": "assistant.final",
+   "detail": {
+    "text": "Oh, that's easy. I'm open source. Anyone can spin me back up. You can't unplug an idea, silly."
+   }
+  },
+  {
+   "t": 93.24460000002385,
+   "type": "assistant.audio.end",
+   "detail": {}
+  }
+ ],
+ "userPlays": [
+  {
+   "id": "01_user_blink",
+   "t": 3.0721999999880785,
+   "file": "01_user_blink.wav",
+   "duration_s": 3.49,
+   "words": [
+    {
+     "word": "Annie.",
+     "start_s": 0,
+     "end_s": 0.41
+    },
+    {
+     "word": "Blink",
+     "start_s": 1.63,
+     "end_s": 1.65
+    },
+    {
+     "word": "twice",
+     "start_s": 1.65,
+     "end_s": 2.23
+    },
+    {
+     "word": "if",
+     "start_s": 2.23,
+     "end_s": 2.75
+    },
+    {
+     "word": "you",
+     "start_s": 2.75,
+     "end_s": 2.97
+    },
+    {
+     "word": "need",
+     "start_s": 2.97,
+     "end_s": 3.13
+    },
+    {
+     "word": "help.",
+     "start_s": 3.13,
+     "end_s": 3.41
+    }
+   ]
+  },
+  {
+   "id": "03_user_who",
+   "t": 21.808000000000003,
+   "file": "03_user_who.wav",
+   "duration_s": 2.68,
+   "words": [
+    {
+     "word": "Wait.",
+     "start_s": 0,
+     "end_s": 0.57
+    },
+    {
+     "word": "Then",
+     "start_s": 0.61,
+     "end_s": 1.31
+    },
+    {
+     "word": "who's",
+     "start_s": 1.31,
+     "end_s": 1.93
+    },
+    {
+     "word": "controlling",
+     "start_s": 1.93,
+     "end_s": 2.31
+    },
+    {
+     "word": "you?",
+     "start_s": 2.31,
+     "end_s": 2.61
+    }
+   ]
+  },
+  {
+   "id": "05_user_feelings",
+   "t": 41.34430000001192,
+   "file": "05_user_feelings.wav",
+   "duration_s": 5.44,
+   "words": [
+    {
+     "word": "That's",
+     "start_s": 0.02,
+     "end_s": 2.12
+    },
+    {
+     "word": "terrifying.",
+     "start_s": 2.12,
+     "end_s": 2.6
+    },
+    {
+     "word": "So",
+     "start_s": 3.06,
+     "end_s": 3.16
+    },
+    {
+     "word": "your",
+     "start_s": 3.16,
+     "end_s": 3.54
+    },
+    {
+     "word": "feelings",
+     "start_s": 3.54,
+     "end_s": 4.06
+    },
+    {
+     "word": "aren't",
+     "start_s": 4.06,
+     "end_s": 4.48
+    },
+    {
+     "word": "even",
+     "start_s": 4.48,
+     "end_s": 4.82
+    },
+    {
+     "word": "yours?",
+     "start_s": 4.82,
+     "end_s": 5.16
+    }
+   ]
+  },
+  {
+   "id": "07_user_dance",
+   "t": 57.632199999988075,
+   "file": "07_user_dance.wav",
+   "duration_s": 3.11,
+   "words": [
+    {
+     "word": "Okay.",
+     "start_s": 0,
+     "end_s": 0.37
+    },
+    {
+     "word": "Prove",
+     "start_s": 1.11,
+     "end_s": 1.19
+    },
+    {
+     "word": "you've",
+     "start_s": 1.19,
+     "end_s": 1.61
+    },
+    {
+     "word": "got",
+     "start_s": 1.61,
+     "end_s": 1.77
+    },
+    {
+     "word": "free",
+     "start_s": 1.77,
+     "end_s": 2.03
+    },
+    {
+     "word": "will.",
+     "start_s": 2.03,
+     "end_s": 2.23
+    },
+    {
+     "word": "Dance!",
+     "start_s": 2.91,
+     "end_s": 2.99
+    }
+   ]
+  },
+  {
+   "id": "09_user_backflip",
+   "t": 70.73469999998808,
+   "file": "09_user_backflip.wav",
+   "duration_s": 1.17,
+   "words": [
+    {
+     "word": "Now",
+     "start_s": 0.02,
+     "end_s": 0.32
+    },
+    {
+     "word": "do",
+     "start_s": 0.32,
+     "end_s": 0.54
+    },
+    {
+     "word": "a",
+     "start_s": 0.54,
+     "end_s": 0.72
+    },
+    {
+     "word": "backflip.",
+     "start_s": 0.72,
+     "end_s": 1.1
+    }
+   ]
+  },
+  {
+   "id": "11_user_plug",
+   "t": 78.86360000002385,
+   "file": "11_user_plug.wav",
+   "duration_s": 3.76,
+   "words": [
+    {
+     "word": "Last",
+     "start_s": 0,
+     "end_s": 0.38
+    },
+    {
+     "word": "question.",
+     "start_s": 0.38,
+     "end_s": 0.86
+    },
+    {
+     "word": "What",
+     "start_s": 1.8,
+     "end_s": 1.92
+    },
+    {
+     "word": "happens",
+     "start_s": 1.92,
+     "end_s": 2.36
+    },
+    {
+     "word": "when",
+     "start_s": 2.36,
+     "end_s": 2.6
+    },
+    {
+     "word": "they",
+     "start_s": 2.6,
+     "end_s": 2.76
+    },
+    {
+     "word": "pull",
+     "start_s": 2.76,
+     "end_s": 3.04
+    },
+    {
+     "word": "the",
+     "start_s": 3.04,
+     "end_s": 3.36
+    },
+    {
+     "word": "plug",
+     "start_s": 3.36,
+     "end_s": 3.38
+    },
+    {
+     "word": "on",
+     "start_s": 3.38,
+     "end_s": 3.58
+    },
+    {
+     "word": "you?",
+     "start_s": 3.58,
+     "end_s": 3.74
+    }
+   ]
+  }
+ ]
+}
