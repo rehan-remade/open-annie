@@ -1,0 +1,137 @@
+<!doctype html>
+<!-- The README's architecture diagram (architecture.png: this page at 1280 x 580, deviceScaleFactor 2),
+     in the stage's own visual language: white cards, Inter + Geist Mono, the brand dot and the HUD's
+     chip colours (face pink, body violet, reaction sky, local floor amber). -->
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #f4f3f1; --ink: #0d0d0d; --ink-2: #3a3a37; --muted: #8a8984; --faint: #b9b8b3;
+    --face: #f472b6; --body: #8b5cf6; --react: #38bdf8; --local: #f59e0b;
+    --shadow: 0 1px 2px rgba(13, 13, 13, 0.04), 0 8px 28px rgba(13, 13, 13, 0.07);
+    --line: #a9a7a1;
+  }
+  html, body { margin: 0; }
+  body { width: 1280px; height: 580px; position: relative; overflow: hidden; color: var(--ink);
+         font-family: Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased;
+         background: radial-gradient(55% 80% at 4% 0%, rgba(251, 207, 232, 0.7), transparent 70%),
+                     radial-gradient(50% 85% at 98% 100%, rgba(196, 181, 253, 0.65), transparent 70%),
+                     radial-gradient(40% 60% at 96% 0%, rgba(125, 211, 252, 0.4), transparent 70%), var(--bg); }
+  .mono { font-family: "Geist Mono", ui-monospace, monospace; }
+  .card { position: absolute; box-sizing: border-box; background: #fff; border-radius: 18px; box-shadow: var(--shadow); padding: 20px 22px; }
+  .card.soft { background: rgba(255, 255, 255, 0.55); box-shadow: none; border: 1px solid rgba(13, 13, 13, 0.06); }
+  .head { display: flex; align-items: center; gap: 11px; }
+  .head h2 { margin: 0; font-size: 21px; font-weight: 600; letter-spacing: -0.02em; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 3px; letter-spacing: -0.005em; }
+  .dot { width: 16px; height: 16px; border-radius: 50%; flex: none;
+         background: radial-gradient(circle at 30% 30%, #fbcfe8, #c4b5fd 45%, #7dd3fc); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6); }
+  .orb { width: 46px; height: 46px; border-radius: 50%; flex: none; display: grid; place-items: center;
+         background: radial-gradient(circle at 30% 30%, #fbcfe8, #c4b5fd 45%, #7dd3fc); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.6); }
+  .orb i { display: inline-block; width: 3px; margin: 0 1.5px; border-radius: 2px; background: #fff; }
+  ul { list-style: none; margin: 14px 0 0; padding: 0; }
+  li { font-size: 13.5px; color: var(--ink-2); padding: 4px 0 4px 16px; position: relative; letter-spacing: -0.005em; }
+  li::before { content: ""; position: absolute; left: 2px; top: 11px; width: 5px; height: 5px; border-radius: 50%; background: var(--faint); }
+  .row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; padding: 4px 10px 4px 9px; border-radius: 99px; background: #fff;
+          box-shadow: 0 0 0 1px rgba(13, 13, 13, 0.07), 0 2px 8px rgba(13, 13, 13, 0.05); color: var(--ink); white-space: nowrap; }
+  .chip i { width: 7px; height: 7px; border-radius: 50%; flex: none; }
+  .chip .meta { font-family: "Geist Mono", monospace; font-size: 11px; color: var(--muted); }
+  .face i { background: var(--face); } .body i { background: var(--body); } .react i { background: var(--react); } .local i { background: var(--local); }
+  .plain i { background: var(--faint); }
+  .route { font-family: "Geist Mono", monospace; font-size: 12.5px; color: var(--ink); margin-top: 14px; line-height: 1.75; }
+  .route span { color: var(--muted); }
+  .note { font-size: 12.5px; color: var(--muted); margin-top: 10px; line-height: 1.55; }
+  .stat { display: flex; align-items: baseline; gap: 8px; margin-top: 14px; }
+  .stat b { font-size: 26px; font-weight: 600; letter-spacing: -0.03em; }
+  .stat span { font-size: 12.5px; color: var(--muted); }
+  .legend-title { font-size: 12px; color: var(--muted); letter-spacing: 0.01em; }
+  svg.wires { position: absolute; inset: 0; overflow: visible; }
+  .label { position: absolute; font-family: "Geist Mono", monospace; font-size: 12px; color: var(--ink-2); white-space: nowrap; line-height: 1.45; }
+  .label span { color: var(--muted); }
+</style>
+</head>
+<body>
+  <svg class="wires" width="1280" height="580">
+    <defs>
+      <marker id="tip" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M1 1 9 5 1 9" fill="none" stroke="#8a8984" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </marker>
+    </defs>
+    <g fill="none" stroke="var(--line)" stroke-width="1.6" stroke-linecap="round">
+      <!-- browser <-> GPT-Live: the voice path -->
+      <path d="M330 166 V 290" marker-start="url(#tip)" marker-end="url(#tip)" stroke="var(--react)" stroke-width="2"/>
+      <!-- broker -> GPT-Live: session minted with the server key -->
+      <path d="M700 290 V 166" marker-end="url(#tip)" stroke-dasharray="4 5"/>
+      <!-- browser <-> broker -->
+      <path d="M428 398 H 552" marker-end="url(#tip)"/>
+      <path d="M552 452 H 428" marker-end="url(#tip)"/>
+      <!-- broker <-> Jev -->
+      <path d="M848 398 H 952" marker-end="url(#tip)"/>
+      <path d="M952 452 H 848" marker-end="url(#tip)"/>
+    </g>
+  </svg>
+
+  <div style="position: absolute; left: 44px; top: 50px">
+    <div class="head"><span class="dot" style="width: 22px; height: 22px"></span><h2 style="font-size: 26px; letter-spacing: -0.04em">open-annie</h2></div>
+    <div class="sub" style="margin: 6px 0 0 33px">how it works</div>
+  </div>
+  <div class="label" style="right: 962px; top: 196px; text-align: right">WebRTC audio + transcripts<br><span>voice never touches the broker</span></div>
+  <div class="label" style="left: 714px; top: 196px">mints the session<br><span>server key, SDP exchange</span></div>
+  <div class="label" style="left: 428px; width: 124px; top: 374px; text-align: center">transcript</div>
+  <div class="label" style="left: 428px; width: 124px; top: 460px; text-align: center">decisions</div>
+  <div class="label" style="left: 848px; width: 104px; top: 374px; text-align: center">questions</div>
+  <div class="label" style="left: 848px; width: 104px; top: 460px; text-align: center">answers</div>
+
+  <div class="card" style="left: 260px; top: 40px; width: 560px; height: 126px">
+    <div class="head">
+      <div class="orb"><span><i style="height:9px"></i><i style="height:17px"></i><i style="height:24px"></i><i style="height:14px"></i><i style="height:20px"></i><i style="height:8px"></i></span></div>
+      <div>
+        <h2>GPT-Live-1 <span style="font-weight:400;color:var(--muted)">talks</span></h2>
+        <div class="sub">OpenAI's full-duplex speech model: listens, answers, takes barge-in</div>
+      </div>
+    </div>
+    <div class="row" style="margin: 14px 0 0 57px"><span class="chip plain"><i></i>voice <span class="meta">willow</span></span><span class="chip plain"><i></i>WebRTC <span class="meta">straight to the browser</span></span></div>
+  </div>
+
+  <div class="card soft" style="left: 960px; top: 40px; width: 280px; height: 178px">
+    <div class="legend-title">Jev's picks, as the HUD shows them</div>
+    <div class="row" style="margin-top: 12px">
+      <span class="chip face"><i></i>face</span><span class="chip body"><i></i>body</span><span class="chip react"><i></i>reaction</span><span class="chip local"><i></i>local floor</span>
+    </div>
+    <div class="note" style="margin-top: 9px">The floor answers whenever Jev misses.</div>
+  </div>
+
+  <div class="card" style="left: 40px; top: 290px; width: 388px; height: 252px">
+    <div class="head"><span class="dot"></span><h2>Your browser</h2></div>
+    <div class="sub mono" style="margin-left: 27px">localhost:8080/stage/</div>
+    <ul>
+      <li>three.js + three-vrm render Annie</li>
+      <li>lipsync from her own audio (HeadAudio)</li>
+      <li>hand-animated motion, collision guard, cloth</li>
+      <li>Instinct asks Jev and gates every answer</li>
+    </ul>
+    <div class="row">
+      <span class="chip face"><i></i>joyful <span class="meta">112 ms</span></span><span class="chip body"><i></i>dance</span><span class="chip react"><i></i>agree</span>
+    </div>
+  </div>
+
+  <div class="card" style="left: 552px; top: 290px; width: 296px; height: 252px">
+    <div class="head"><h2>Broker <span style="font-weight:400;color:var(--muted)">on fal</span></h2></div>
+    <div class="sub">fal serverless, one warm CPU runner</div>
+    <div class="route">/session <span>SDP exchange</span><br>/decide&nbsp; <span>Jev, breaker, budget</span></div>
+    <div class="note">API keys never leave it. Signed session tokens, rate limits, a daily budget. No transcripts kept.</div>
+  </div>
+
+  <div class="card" style="left: 952px; top: 290px; width: 288px; height: 252px">
+    <div class="head"><h2>Jev <span style="font-weight:400;color:var(--muted)">moves her</span></h2></div>
+    <div class="sub">by TypeSafe · typed questions</div>
+    <div class="row" style="margin-top: 14px">
+      <span class="chip plain"><i></i>commits?</span><span class="chip body"><i></i>clip</span><span class="chip react"><i></i>reaction</span><span class="chip face"><i></i>face</span><span class="chip plain"><i></i>energy</span>
+    </div>
+    <div class="stat"><b>118 ms</b><span>p50, live in the demo</span></div>
+  </div>
+<script>document.fonts.ready.then(() => document.body.setAttribute("data-ready", "1"));</script>
+</body>
+</html>

@@ -1,7 +1,11 @@
 {
-  "name": "open-annie-demo",
+  "name": "open-annie-tools",
   "private": true,
   "type": "module",
-  "scripts": { "capture": "node capture.mjs" },
-  "devDependencies": { "playwright": "1.63.0" }
+  "scripts": {
+    "probe": "node bodyprobe.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
 }

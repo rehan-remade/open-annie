@@ -179,7 +179,7 @@ function step(t, mode = "script") {
   annie.update(t);
   character.update(t, dt);
   placeCamera(mode === "script" ? t : 0, dt, mode === "script" ? timeline : { beats: [] });
-  if (!DIRECTED) renderer.render(scene, camera);
+  renderer.render(scene, camera);
   hud.update(t, { speaking: shaper.speaking, userSpeaking, mouth, stats: annie.stats, userLevel, annieLevel: shaper.speaking ? f?.amp ?? 0 : 0 });
   if (mode === "script") hud.overlays(t, timeline.end);
 }
@@ -187,8 +187,6 @@ function step(t, mode = "script") {
 // Live mode: real mic, GPT-Live via the broker, Jev with the session's token.
 let live = null;
 const LIVE = params.has("live") && params.get("broker");
-// Directed recordings are replayed and rendered later; skip drawing so audio analysis runs at full rate.
-const DIRECTED = !!(LIVE && params.get("direct"));
 function liveCaptions() {
   // Present live transcripts through the same caption interface as the script.
   const beat = (who, s) => ({ who, start: -1, end: Infinity, words: s.text.trim().split(/\s+/).filter(Boolean).map((w) => ({ word: w, start_s: 0 })) });
@@ -200,7 +198,7 @@ if (CAPTURE) {
   window.capture = {
     duration: timeline.end,
     beats: timeline.beats.map(({ id, who, file, start, end }) => ({ id, who, file, start, end })),
-    // What the mux lays down: every user line where it played, plus Annie's recorded track.
+    // Every user line where it played, plus Annie's recorded track (the body probe reads her track).
     audio: session
       ? [...session.userPlays.map((u) => ({ file: `demo/audio/${u.file}`, start: u.t })), { file: session.audio.file, start: session.audio.start }]
       : timeline.beats.map((b) => ({ file: `demo/audio/${b.file}`, start: b.start })),
@@ -227,39 +225,21 @@ if (CAPTURE) {
   const wall = () => performance.now() / 1000 - t0;
   const loop = () => {
     if (mode === "idle" || mode === "live") step(wall(), mode);
-    if (!DIRECTED) requestAnimationFrame(loop);
+    requestAnimationFrame(loop);
   };
-  if (DIRECTED) setInterval(loop, 16);
-  else requestAnimationFrame(loop);
+  requestAnimationFrame(loop);
   if (LIVE) {
     btn.textContent = "🎙 Talk to Annie";
     hud.setHonesty("live · voice: GPT-Live-1 over WebRTC · decisions: Jev via broker · lipsync, face and body computed in the browser");
     hud.setMode("live");
   }
-  if (LIVE && params.get("direct")) queueMicrotask(() => btn.onclick());
   btn.onclick = async () => {
     btn.hidden = true;
     if (LIVE) {
       const { GptLiveVoice } = await import("../packages/core/src/voice-gptlive.js");
       const liveClock = { now: wall };
-      // ?direct=<plan>: scripted user lines go in through a synthetic mic and the session is recorded.
-      const planUrl = params.get("direct");
-      const plan = planUrl ? await fetch(new URL(planUrl, ROOT)).then((r) => r.json()) : null;
-      const micCtx = plan ? new AudioContext() : null;
-      const micDest = micCtx?.createMediaStreamDestination();
-      if (micCtx) {
-        // A faint room-noise floor (~ -60 dBFS). Digital silence lets Opus DTX stop
-        // sending packets, and GPT-Live, clocked by input audio, stalls mid-sentence.
-        const noise = micCtx.createBuffer(1, micCtx.sampleRate * 2, micCtx.sampleRate);
-        const ch = noise.getChannelData(0);
-        for (let i = 0; i < ch.length; i++) ch[i] = (Math.random() * 2 - 1) * 0.0017;
-        const src = micCtx.createBufferSource();
-        Object.assign(src, { buffer: noise, loop: true });
-        src.connect(micDest);
-        src.start();
-      }
       live = new GptLiveVoice({
-        bus, brokerUrl: params.get("broker"), clock: liveClock, voice: plan?.voice ?? "willow", mic: micDest?.stream,
+        bus, brokerUrl: params.get("broker"), clock: liveClock, voice: "willow",
         instructions: await fetch(new URL("persona/character.md", ROOT)).then((r) => r.text()),
       });
       try {
@@ -267,19 +247,12 @@ if (CAPTURE) {
       } catch (e) {
         btn.hidden = false;
         btn.textContent = `Voice unavailable (${e.message}) · retry`;
-        if (plan) window.liveRecord = { done: true, export: () => ({ error: e.message }) };
         return;
       }
       annie.clock = liveClock;
       annie.decider = new BrokerDecider({ url: params.get("broker"), getToken: () => live.token });
       liveCaptions();
       mode = "live";
-      if (plan) {
-        const { direct } = await import("./director.js");
-        const out = await direct({ bus, live, plan, lines, wall, ctx: micCtx, dest: micDest, audioBase: new URL("demo/audio", ROOT).href });
-        await annie.settle();
-        window.liveRecord = { done: true, export: () => ({ ...out, decisions: decisionLog }) };
-      }
       return;
     }
     mode = "script";

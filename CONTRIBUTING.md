@@ -12,7 +12,7 @@ cd broker                             # the broker and its tests (mocked upstrea
 uv venv .venv --python 3.12 && uv pip install --python .venv/bin/python -r requirements.txt
 .venv/bin/python -m pytest -q
 
-cd demo && npm install && npx playwright install chromium   # capture, probes, the demo video
+cd demo && npm install && npx playwright install chromium   # the body probe and other QA tools
 ```
 
 Keys go in `.env` (see `.env.example`), which is gitignored. Never commit keys, and never paste

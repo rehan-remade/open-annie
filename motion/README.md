@@ -112,7 +112,7 @@ Pack contents (63 clips): `idle_a/b/c` (loops, relaxed contrapposto, weight shif
 sleeve / rock / clasp / glance / stretch / hips` (`kind: "fidget"`, one-shots that start and end on
 the idle base pose; `fidget_hips` puts both palms on her hips), `listen_a/b`, the semantic gestures
 (`wave clap shrug think laugh sad_slump surprised_recoil bow point_self excited_bounce`, `dance` as
-`kind: "action"`, 120 bpm with its dips on 0.25 + 0.5 k s to match demo/beat.py), talk-rest holds
+`kind: "action"`, 120 bpm with its dips on 0.25 + 0.5 k s), talk-rest holds
 `talk_calm_1..3` (`rest: "low"`) and `talk_animated_1..3`, `talk_excited_1..2` (`rest: "mid"`), and 32
 gesture phrases `g_*` (`layer: "gesture"`, `kind` beat / deictic / metaphoric / iconic / emblem,
 `hands`, `energy`, `rest`, `prep_end` / `stroke` / `retract_start`, `when`), each starting and ending

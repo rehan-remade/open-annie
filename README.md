@@ -50,21 +50,12 @@ Then open <http://localhost:8080/stage/?live=1&broker=http://127.0.0.1:8787> and
 | `?avatar=vivi`, `?avatar=annie` | another avatar (see [assets/](assets/README.md)); the default is Annie without her jacket |
 | `?outfit=full` | Annie with her jacket |
 | `?lipsync=energy` | the energy-only mouth, without HeadAudio visemes |
-| `?capture=1` | virtual clock, for frame-exact rendering (used by `demo/capture.mjs`) |
 
 ## How it works
 
-```mermaid
-flowchart LR
-  B["Browser<br/>three.js + three-vrm<br/>lipsync · motion · Instinct gates"]
-  O[("GPT-Live-1")]
-  F["fal CPU broker<br/>/session  SDP exchange<br/>/decide  Jev, breaker, budget"]
-  J[("Jev")]
-  B <-->|"WebRTC audio + transcript deltas"| O
-  B -->|"transcript so far"| F
-  F -->|"one request, typed questions"| J
-  F -->|"session minted with the server key"| O
-```
+<p align="center">
+  <img src="docs/media/architecture.png" alt="How open-annie works. GPT-Live-1 talks with your browser over WebRTC; the voice never touches the broker. The browser sends the transcript to the broker on fal, which asks Jev typed questions and returns decisions (face, body, reaction) that Annie acts out; the broker also mints the GPT-Live session with the server key. A local rule floor answers whenever Jev misses." width="100%">
+</p>
 
 1. **Voice.** GPT-Live-1 speaks straight to the browser over WebRTC. Voice audio never touches the
    broker, so you get realtime playout, loss concealment and clean barge-in for free. The broker only
@@ -107,28 +98,6 @@ bodies. Secrets are `ANNIE_`-prefixed because fal shares secrets across an accou
 [broker/README.md](broker/README.md) and the verified upstream contracts in
 [broker/UPSTREAM.md](broker/UPSTREAM.md).
 
-## Make the demo video
-
-```bash
-cd demo && npm install && npx playwright install chromium
-node capture.mjs live --broker http://127.0.0.1:8787   # a real GPT-Live session → demo/live/
-node capture.mjs render --query "replay=demo/live/session.json&decisions=demo/live/decisions.json"
-node capture.mjs mux --name open-annie-live.mp4        # her recorded voice, your lines, the dance beat
-node frame.mjs --in out/open-annie-live.mp4            # the browser window → out/open-annie-live-browser.mp4
-node readme-media.mjs --in out/open-annie-live-browser.mp4   # docs/media: banner, mp4, GIF
-```
-
-- **Live.** A director ([`stage/director.js`](stage/director.js)) speaks the user lines into a
-  synthetic mic when Annie finishes (`demo/live-plan.json`), and records her WebRTC audio, every
-  transcript event and every live Jev decision.
-- **Render.** The page runs on a virtual clock, and each decision lands at *ask time + its measured
-  latency*, so the video shows exactly what live Jev did, frame by frame. Frames are 1080p30,
-  supersampled 2x.
-- **The conversation.** Annie's character is [`persona/character.md`](persona/character.md). Your
-  lines and their acting directions are in [`demo/script.json`](demo/script.json), performed by
-  `demo/user_voice.py`. The keyless preview's Annie lines come from `demo/tts.py` (Kokoro-82M). See
-  [demo/audio/README.md](demo/audio/README.md).
-
 ## Numbers
 
 | | measured |
@@ -141,16 +110,16 @@ node readme-media.mjs --in out/open-annie-live-browser.mp4   # docs/media: banne
 ## Repo
 
 ```
-stage/              the page (no build step, CDN import map): scene, HUD, live director, capture API
+stage/              the page (no build step, CDN import map): scene, HUD, live mode, replay
 packages/core/src/  character: motion, gesture timing, collision guard, cloth · faces · lipsync + mouth
                     instinct: Jev questions, pacer, gates · floor: rules · voices: GPT-Live, scripted, replay
 broker/             the only server: Python core, fal App, local runner, tests, upstream notes
 assets/             avatars and the motion pack, each with a licence manifest (scripts/check_assets.py)
 motion/blender/     the Blender pipeline that authors the motion pack
 persona/            character.md + voice.md: swap these to make a different character
-demo/               the demo: script, voice lines, live take, capture, mux, browser frame
+demo/               the keyless preview's script and voice lines, the recorded session, QA probes
 lipsync-eval/       offline lipsync measurement against phoneme ground truth
-docs/               contracts.md (the interfaces) and README media
+docs/               contracts.md (the interfaces) and README media (with their source pages)
 ```
 
 ## Privacy, safety and honesty

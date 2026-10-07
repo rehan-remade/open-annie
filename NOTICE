@@ -21,8 +21,8 @@ recorded per file with a sha256 in its manifest and enforced by scripts/check_as
                           AI-generated audio.
 - demo/audio/*_annie_*.wav  the keyless preview's lines, generated with Kokoro-82M (Apache-2.0),
                           voice af_heart.
-- demo/beat.py output     synthesised in this repository, CC0-1.0.
-- docs/media              rendered from this repository (stage, demo session, brand templates).
+- docs/media              rendered from this repository (the stage, the recorded demo session, and the
+                          banner and diagram pages next to their images).
 
 Third-party runtime libraries (loaded from CDN, not vendored): three.js (MIT),
 @pixiv/three-vrm (MIT).

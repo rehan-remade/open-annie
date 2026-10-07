@@ -1,6 +1,6 @@
 # Demo voice lines
 
-These are the voice lines for the open-annie demo, generated from `../script.json`. Annie's lines (the no-keys scripted preview) come from `../tts.py`; the user's lines, which the live director also speaks to GPT-Live, come from `../user_voice.py`.
+These are the voice lines for the open-annie keyless preview, generated from `../script.json`. Annie's lines come from `../tts.py`; the user's lines come from `../user_voice.py` (the same lines were spoken to GPT-Live for the recorded session in `../live/`).
 
 ## Model and license
 

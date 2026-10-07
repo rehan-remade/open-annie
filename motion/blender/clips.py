@@ -20,7 +20,7 @@ DESCRIPTION = (
     "avatar mesh as shown (AvatarSample_B without the varsity jacket: hands, fingers and arms never inside the skin, crop top, "
     "skirt, thighs or hair; resting arms lightly touch the waist and skirt) and corrected "
     "by pushing the arm IK targets out, temporally smoothed. Gestures and fidgets start and end on the idle base pose; "
-    "the dance is 120 bpm with its dips on 0.25 + 0.5 k s (demo/beat.py).")
+    "the dance is 120 bpm with its dips on 0.25 + 0.5 k s.")
 RESTS_NOTE = {"low": "arms relaxed, hands resting on the skirt just in front of the hips (talk_calm_*)",
               "mid": "hands at waist height in front, forearms about level, elbows lightly on the waist (talk_animated_*, talk_excited_*)",
               "note": "gesture phrases start and end on the rest named by their `rest`; talk-rest loops hold it"}

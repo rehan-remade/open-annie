@@ -17,7 +17,7 @@ assets/clips/<pack>/      pack.json + <clip>.json motion files (see "Motion pack
 motion/blender/           offline motion pipeline: hand-keyed in headless Blender -> assets/clips/annie-blender
 persona/                  character.md, voice.md
 scripts/check_assets.py   stdlib-only CI license gate
-demo/                     the demo: script, voice lines, live director plan, capture, mux, browser frame
+demo/                     the keyless preview's script and voice lines, the recorded session, QA probes
 ```
 
 ## Broker HTTP contract (all implementations)
