@@ -2,11 +2,9 @@
   <img src="docs/media/banner.png" alt="open-annie: the model that talks is not the model that moves" width="100%">
 </p>
 
-<p align="center">
-  <a href="docs/media/open-annie-demo.mp4"><img src="docs/media/open-annie-demo.gif" alt="Annie dances in the open-annie stage while Jev's live picks appear as chips in the conversation" width="880"></a>
-  <br>
-  <a href="docs/media/open-annie-demo.mp4"><b>▶ Watch the full demo with sound (1:37)</b></a>
-</p>
+https://github.com/user-attachments/assets/a54b7354-3331-408f-9fdb-aa5be35c8392
+
+<p align="center"><sub>Recorded live, with sound (1:37) · <a href="docs/media/open-annie-demo.mp4">download the mp4</a></sub></p>
 
 **open-annie** is an open-source 3D character you talk to in the browser. One model talks:
 GPT-Live-1, a full-duplex speech model, speaks with you over WebRTC. A second model moves her:
